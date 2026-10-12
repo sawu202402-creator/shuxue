@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "rec_1790852884588_furj",
+    "userId": "child_1790852522356",
+    "userName": "皮皮",
+    "userAvatar": "🦁",
+    "timestamp": 1790852884588,
+    "dateStr": "2026/10/1 19:08:04",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 2,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 5,
+      "correctCount": 3,
+      "wrongCount": 2,
+      "accuracy": 60,
+      "maxCombo": 3,
+      "scoreEarned": 30
+    },
+    "questions": [
+      {
+        "id": "q_1790852812935_h386",
+        "expr": "11 - 9 = ?",
+        "answer": 2,
+        "userAnswer": 2,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790852812935
+      },
+      {
+        "id": "q_1790852824448_7xf3",
+        "expr": "30 - 10 = ?",
+        "answer": 20,
+        "userAnswer": 20,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790852824448
+      },
+      {
+        "id": "q_1790852836133_fez4",
+        "expr": "14 - 10 = ?",
+        "answer": 4,
+        "userAnswer": 4,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790852836133
+      },
+      {
+        "id": "q_1790852871629_ryui",
+        "expr": "15 - 9 = ?",
+        "answer": 6,
+        "userAnswer": 4,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790852871629
+      },
+      {
+        "id": "q_1790852879205_jupu",
+        "expr": "15 - 9 = ?",
+        "answer": 6,
+        "userAnswer": 14,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790852879205
+      }
+    ]
+  },
+  {
+    "id": "rec_1790852787262_3xmw",
+    "userId": "child_1790852522356",
+    "userName": "皮皮",
+    "userAvatar": "🦁",
+    "timestamp": 1790852787262,
+    "dateStr": "2026/10/1 19:06:27",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 2,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 2,
+      "correctCount": 2,
+      "wrongCount": 0,
+      "accuracy": 100,
+      "maxCombo": 2,
+      "scoreEarned": 20
+    },
+    "questions": [
+      {
+        "id": "q_1790852761714_ho7u",
+        "expr": "12 - 3 = ?",
+        "answer": 9,
+        "userAnswer": 9,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790852761714
+      },
+      {
+        "id": "q_1790852786841_6vwg",
+        "expr": "8 + 9 = ?",
+        "answer": 17,
+        "userAnswer": 17,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790852786841
+      }
+    ]
+  },
+  {
+    "id": "rec_1790755922550_5sld",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790755922550,
+    "dateStr": "2026/9/30 16:12:02",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "VICTORY",
+    "waveReached": 15,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 71,
+      "correctCount": 67,
+      "wrongCount": 4,
+      "accuracy": 94,
+      "maxCombo": 31,
+      "scoreEarned": 770
+    },
+    "questions": [
+      {
+        "id": "q_1790752381801_hktm",
+        "expr": "70 + 10 = ?",
+        "answer": 80,
+        "userAnswer": 80,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752381801
+      },
+      {
+        "id": "q_1790752384410_lqhm",
+        "expr": "39 - 9 = ?",
+        "answer": 30,
+        "userAnswer": 30,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752384410
+      },
+      {
+        "id": "q_1790752387234_p2px",
+        "expr": "60 + 10 = ?",
+        "answer": 70,
+        "userAnswer": 70,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752387234
+      },
+      {
+        "id": "q_1790752390283_4uia",
+        "expr": "24 + 19 = ?",
+        "answer": 43,
+        "userAnswer": 43,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752390283
+      },
+      {
+        "id": "q_1790752392521_9bxx",
+        "expr": "48 - 25 = ?",
+        "answer": 23,
+        "userAnswer": 23,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752392521
+      },
+      {
+        "id": "q_1790752394648_m22u",
+        "expr": "36 + 8 = ?",
+        "answer": 44,
+        "userAnswer": 44,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752394648
+      },
+      {
+        "id": "q_1790752408385_rct3",
+        "expr": "18 - 7 = ?",
+        "answer": 11,
+        "userAnswer": 9,
+        "isCorrect": false,
+        "isShieldNuke": true,
+        "time": 1790752408385
+      },
+      {
+        "id": "q_1790752411028_ipib",
+        "expr": "18 - 7 = ?",
+        "answer": 11,
+        "userAnswer": 9,
+        "isCorrect": false,
+        "isShieldNuke": true,
+        "time": 1790752411028
+      },
+      {
+        "id": "q_1790752413449_8kf1",
+        "expr": "18 - 7 = ?",
+        "answer": 11,
+        "userAnswer": 11,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752413449
+      },
+      {
+        "id": "q_1790752416451_fb53",
+        "expr": "30 + 20 = ?",
+        "answer": 50,
+        "userAnswer": 50,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752416451
+      },
+      {
+        "id": "q_1790752418716_7ksc",
+        "expr": "30 + 10 = ?",
+        "answer": 40,
+        "userAnswer": 40,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752418716
+      },
+      {
+        "id": "q_1790752431290_jy06",
+        "expr": "15 + ? = 28",
+        "answer": 13,
+        "userAnswer": 13,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752431290
+      },
+      {
+        "id": "q_1790752433304_w5rf",
+        "expr": "39 - 34 = ?",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752433304
+      },
+      {
+        "id": "q_1790752436375_k8q1",
+        "expr": "20 - 15 = ?",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752436375
+      },
+      {
+        "id": "q_1790752438783_b1te",
+        "expr": "80 + 10 = ?",
+        "answer": 90,
+        "userAnswer": 90,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752438783
+      },
+      {
+        "id": "q_1790752462444_f46c",
+        "expr": "29 - ? = 11",
+        "answer": 18,
+        "userAnswer": 18,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752462444
+      },
+      {
+        "id": "q_1790752464221_3ay6",
+        "expr": "18 + 5 = ?",
+        "answer": 23,
+        "userAnswer": 23,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752464221
+      },
+      {
+        "id": "q_1790752466966_a05z",
+        "expr": "36 - 17 = ?",
+        "answer": 19,
+        "userAnswer": 19,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752466966
+      },
+      {
+        "id": "q_1790752468765_yqkr",
+        "expr": "20 - 13 = ?",
+        "answer": 7,
+        "userAnswer": 7,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752468765
+      },
+      {
+        "id": "q_1790752471555_4iwg",
+        "expr": "35 + 13 = ?",
+        "answer": 48,
+        "userAnswer": 48,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752471555
+      },
+      {
+        "id": "q_1790752473616_l19q",
+        "expr": "80 + 10 = ?",
+        "answer": 90,
+        "userAnswer": 90,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752473616
+      },
+      {
+        "id": "q_1790752475699_9zt0",
+        "expr": "24 + 7 = ?",
+        "answer": 31,
+        "userAnswer": 31,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752475699
+      },
+      {
+        "id": "q_1790752477710_7dt4",
+        "expr": "23 - 9 = ?",
+        "answer": 14,
+        "userAnswer": 14,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752477710
+      },
+      {
+        "id": "q_1790752480083_k0un",
+        "expr": "19 + 22 = ?",
+        "answer": 41,
+        "userAnswer": 41,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752480083
+      },
+      {
+        "id": "q_1790752481535_6xw5",
+        "expr": "40 - 39 = ?",
+        "answer": 1,
+        "userAnswer": 1,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752481535
+      },
+      {
+        "id": "q_1790752484249_e1p7",
+        "expr": "43 - 29 = ?",
+        "answer": 14,
+        "userAnswer": 14,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752484249
+      },
+      {
+        "id": "q_1790752486901_sths",
+        "expr": "45 - 32 = ?",
+        "answer": 13,
+        "userAnswer": 13,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752486901
+      },
+      {
+        "id": "q_1790752489005_6zli",
+        "expr": "27 - 5 = ?",
+        "answer": 22,
+        "userAnswer": 22,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752489005
+      },
+      {
+        "id": "q_1790752491176_pryy",
+        "expr": "28 + 11 = ?",
+        "answer": 39,
+        "userAnswer": 39,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752491176
+      },
+      {
+        "id": "q_1790752493100_1qiu",
+        "expr": "39 + 5 = ?",
+        "answer": 44,
+        "userAnswer": 44,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752493100
+      },
+      {
+        "id": "q_1790752495676_uabn",
+        "expr": "23 - 13 = ?",
+        "answer": 10,
+        "userAnswer": 10,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752495676
+      },
+      {
+        "id": "q_1790752501020_o211",
+        "expr": "25 + 21 = ?",
+        "answer": 46,
+        "userAnswer": 46,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752501020
+      },
+      {
+        "id": "q_1790752503270_hirm",
+        "expr": "31 + 18 = ?",
+        "answer": 49,
+        "userAnswer": 49,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752503270
+      },
+      {
+        "id": "q_1790752505633_nvj0",
+        "expr": "33 + 6 = ?",
+        "answer": 39,
+        "userAnswer": 39,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752505633
+      },
+      {
+        "id": "q_1790752508132_svfh",
+        "expr": "34 - 13 = ?",
+        "answer": 21,
+        "userAnswer": 21,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752508132
+      },
+      {
+        "id": "q_1790752510256_53am",
+        "expr": "46 - 10 = ?",
+        "answer": 36,
+        "userAnswer": 36,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752510256
+      },
+      {
+        "id": "q_1790752524038_9kkt",
+        "expr": "50 + 10 = ?",
+        "answer": 60,
+        "userAnswer": 60,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752524038
+      },
+      {
+        "id": "q_1790752528077_0eiq",
+        "expr": "24 + 16 = ?",
+        "answer": 40,
+        "userAnswer": 40,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752528077
+      },
+      {
+        "id": "q_1790752532949_xy4z",
+        "expr": "24 + 19 = ?",
+        "answer": 43,
+        "userAnswer": 43,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752532949
+      },
+      {
+        "id": "q_1790752536155_poqs",
+        "expr": "41 - 29 = ?",
+        "answer": 12,
+        "userAnswer": 13,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790752536155
+      },
+      {
+        "id": "q_1790752539499_ankp",
+        "expr": "41 - 29 = ?",
+        "answer": 12,
+        "userAnswer": 12,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752539499
+      },
+      {
+        "id": "q_1790752541589_9jq0",
+        "expr": "36 + 2 = ?",
+        "answer": 38,
+        "userAnswer": 38,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752541589
+      },
+      {
+        "id": "q_1790752543166_nhbx",
+        "expr": "16 - 15 = ?",
+        "answer": 1,
+        "userAnswer": 1,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752543166
+      },
+      {
+        "id": "q_1790752545954_zr4l",
+        "expr": "39 - 8 = ?",
+        "answer": 31,
+        "userAnswer": 31,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752545954
+      },
+      {
+        "id": "q_1790752548250_pbjo",
+        "expr": "38 - 25 = ?",
+        "answer": 13,
+        "userAnswer": 23,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790752548250
+      },
+      {
+        "id": "q_1790752550735_l885",
+        "expr": "38 - 25 = ?",
+        "answer": 13,
+        "userAnswer": 13,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752550735
+      },
+      {
+        "id": "q_1790752556049_bqbk",
+        "expr": "14 + 21 = ?",
+        "answer": 35,
+        "userAnswer": 35,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752556049
+      },
+      {
+        "id": "q_1790752557969_8srn",
+        "expr": "29 - 5 = ?",
+        "answer": 24,
+        "userAnswer": 24,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752557969
+      },
+      {
+        "id": "q_1790752559266_2gaf",
+        "expr": "19 - 18 = ?",
+        "answer": 1,
+        "userAnswer": 1,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752559266
+      },
+      {
+        "id": "q_1790752560694_i4s2",
+        "expr": "25 - 24 = ?",
+        "answer": 1,
+        "userAnswer": 1,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752560694
+      },
+      {
+        "id": "q_1790752562976_9si2",
+        "expr": "50 + 10 = ?",
+        "answer": 60,
+        "userAnswer": 60,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752562976
+      },
+      {
+        "id": "q_1790752571009_sxj9",
+        "expr": "24 + 14 = ?",
+        "answer": 38,
+        "userAnswer": 38,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752571009
+      },
+      {
+        "id": "q_1790752572652_neeq",
+        "expr": "13 + 9 = ?",
+        "answer": 22,
+        "userAnswer": 22,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752572652
+      },
+      {
+        "id": "q_1790752574984_yj2o",
+        "expr": "38 + 8 = ?",
+        "answer": 46,
+        "userAnswer": 46,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752574984
+      },
+      {
+        "id": "q_1790752577140_g26q",
+        "expr": "80 + 10 = ?",
+        "answer": 90,
+        "userAnswer": 90,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752577140
+      },
+      {
+        "id": "q_1790752579368_4tsh",
+        "expr": "50 + 10 = ?",
+        "answer": 60,
+        "userAnswer": 60,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752579368
+      },
+      {
+        "id": "q_1790752581629_t6r4",
+        "expr": "20 + 29 = ?",
+        "answer": 49,
+        "userAnswer": 49,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752581629
+      },
+      {
+        "id": "q_1790752592150_3bop",
+        "expr": "26 - 10 = ?",
+        "answer": 16,
+        "userAnswer": 16,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752592150
+      },
+      {
+        "id": "q_1790752594769_0dpe",
+        "expr": "70 + 10 = ?",
+        "answer": 80,
+        "userAnswer": 80,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752594769
+      },
+      {
+        "id": "q_1790752604200_ybmk",
+        "expr": "42 + ? = 44",
+        "answer": 2,
+        "userAnswer": 2,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790752604200
+      },
+      {
+        "id": "q_1790752606799_euaj",
+        "expr": "31 - 9 = ?",
+        "answer": 22,
+        "userAnswer": 22,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752606799
+      },
+      {
+        "id": "q_1790752611195_imcf",
+        "expr": "23 - 18 = ?",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752611195
+      },
+      {
+        "id": "q_1790752613210_ds57",
+        "expr": "46 - 33 = ?",
+        "answer": 13,
+        "userAnswer": 13,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752613210
+      },
+      {
+        "id": "q_1790752614865_kj8f",
+        "expr": "26 - 21 = ?",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790752614865
+      },
+      {
+        "id": "q_1790755893435_0658",
+        "expr": "24 - ? = 19",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790755893435
+      },
+      {
+        "id": "q_1790755895348_lt2b",
+        "expr": "23 - 9 = ?",
+        "answer": 14,
+        "userAnswer": 14,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790755895348
+      },
+      {
+        "id": "q_1790755900693_mlsk",
+        "expr": "44 - ? = 14",
+        "answer": 30,
+        "userAnswer": 30,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790755900693
+      },
+      {
+        "id": "q_1790755911829_uljo",
+        "expr": "37 - 20 = ?",
+        "answer": 17,
+        "userAnswer": 17,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790755911829
+      },
+      {
+        "id": "q_1790755916666_fa52",
+        "expr": "46 - 27 = ?",
+        "answer": 19,
+        "userAnswer": 19,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790755916666
+      },
+      {
+        "id": "q_1790755920301_xksj",
+        "expr": "39 - 19 = ?",
+        "answer": 20,
+        "userAnswer": 20,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790755920301
+      },
+      {
+        "id": "q_1790755922539_1t59",
+        "expr": "17 - 9 = ?",
+        "answer": 8,
+        "userAnswer": 8,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790755922539
+      }
+    ]
+  },
+  {
+    "id": "rec_1790600010701_0rox",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790600010701,
+    "dateStr": "2026/9/28 20:53:30",
+    "levelId": 3,
+    "levelName": "第 3 关: 浮岛回环",
+    "result": "VICTORY",
+    "waveReached": 15,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 23,
+      "correctCount": 17,
+      "wrongCount": 6,
+      "accuracy": 74,
+      "maxCombo": 12,
+      "scoreEarned": 270
+    },
+    "questions": [
+      {
+        "id": "q_1790599328522_cfgc",
+        "expr": "4 + ( ? ) = 20",
+        "answer": 16,
+        "userAnswer": 2,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790599328522
+      },
+      {
+        "id": "q_1790599331251_j1ns",
+        "expr": "4 + ( ? ) = 20",
+        "answer": 16,
+        "userAnswer": 20,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790599331252
+      },
+      {
+        "id": "q_1790599334652_cevt",
+        "expr": "4 + ( ? ) = 20",
+        "answer": 16,
+        "userAnswer": 20,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790599334652
+      },
+      {
+        "id": "q_1790599362183_hkfc",
+        "expr": "4 + ( ? ) = 20",
+        "answer": 16,
+        "userAnswer": 16,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599362183
+      },
+      {
+        "id": "q_1790599369418_8317",
+        "expr": "6 + 5 = ?",
+        "answer": 11,
+        "userAnswer": 11,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599369418
+      },
+      {
+        "id": "q_1790599379466_yewc",
+        "expr": "12 - 3 = ?",
+        "answer": 9,
+        "userAnswer": 1,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790599379466
+      },
+      {
+        "id": "q_1790599390097_p04j",
+        "expr": "12 - 3 = ?",
+        "answer": 9,
+        "userAnswer": 9,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599390097
+      },
+      {
+        "id": "q_1790599395913_7j9s",
+        "expr": "4 + ( ? ) = 14",
+        "answer": 10,
+        "userAnswer": 10,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599395913
+      },
+      {
+        "id": "q_1790599400365_uuon",
+        "expr": "7 + 10 = ?",
+        "answer": 17,
+        "userAnswer": 17,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599400365
+      },
+      {
+        "id": "q_1790599454394_8g37",
+        "expr": "14 - ? = 9",
+        "answer": 5,
+        "userAnswer": 11,
+        "isCorrect": false,
+        "isShieldNuke": true,
+        "time": 1790599454394
+      },
+      {
+        "id": "q_1790599464326_5eev",
+        "expr": "14 - ? = 9",
+        "answer": 5,
+        "userAnswer": 5,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790599464326
+      },
+      {
+        "id": "q_1790599484973_p08x",
+        "expr": "6 + ( ? ) = 12",
+        "answer": 6,
+        "userAnswer": 6,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599484973
+      },
+      {
+        "id": "q_1790599487525_5bri",
+        "expr": "10 + 2 = ?",
+        "answer": 12,
+        "userAnswer": 12,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599487525
+      },
+      {
+        "id": "q_1790599490041_sw6e",
+        "expr": "6 + 5 = ?",
+        "answer": 11,
+        "userAnswer": 11,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599490041
+      },
+      {
+        "id": "q_1790599543836_lktl",
+        "expr": "3 + ( ? ) = 20",
+        "answer": 17,
+        "userAnswer": 17,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599543836
+      },
+      {
+        "id": "q_1790599756871_hz1m",
+        "expr": "5 + 14 = ?",
+        "answer": 19,
+        "userAnswer": 19,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790599756871
+      },
+      {
+        "id": "q_1790599837062_0608",
+        "expr": "7 - 4 = ?",
+        "answer": 3,
+        "userAnswer": 3,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790599837062
+      },
+      {
+        "id": "q_1790599841347_rzm4",
+        "expr": "10 + 7 = ?",
+        "answer": 17,
+        "userAnswer": 17,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599841347
+      },
+      {
+        "id": "q_1790599938138_8qrb",
+        "expr": "10 + ? = 12",
+        "answer": 2,
+        "userAnswer": 2,
+        "isCorrect": true,
+        "isShieldNuke": true,
+        "time": 1790599938138
+      },
+      {
+        "id": "q_1790599942537_d8i9",
+        "expr": "8 + 10 = ?",
+        "answer": 18,
+        "userAnswer": 18,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599942537
+      },
+      {
+        "id": "q_1790599952955_eurg",
+        "expr": "4 + 16 = ?",
+        "answer": 20,
+        "userAnswer": 20,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599952955
+      },
+      {
+        "id": "q_1790599958504_6x8w",
+        "expr": "5 + 10 = ?",
+        "answer": 15,
+        "userAnswer": 15,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790599958505
+      },
+      {
+        "id": "q_1790599960853_46b1",
+        "expr": "13 - 2 = ?",
+        "answer": 11,
+        "userAnswer": 1,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790599960853
+      }
+    ]
+  },
+  {
+    "id": "rec_1790587638121_jg6f",
+    "userId": "child_lele",
+    "userName": "小豌豆",
+    "userAvatar": "🐰",
+    "timestamp": 1790587638121,
+    "dateStr": "2026/9/28 14:57:18",
+    "levelId": 2,
+    "levelName": "第 2 关: 蜿蜒云廊",
+    "result": "DEFEAT",
+    "waveReached": 6,
+    "maxWaves": 18,
+    "stats": {
+      "totalAttempted": 0,
+      "correctCount": 0,
+      "wrongCount": 0,
+      "accuracy": 0,
+      "maxCombo": 0,
+      "scoreEarned": 0
+    },
+    "questions": []
+  },
+  {
+    "id": "rec_1790578954138_hhzg",
+    "userId": "child_lele",
+    "userName": "小豌豆",
+    "userAvatar": "🐰",
+    "timestamp": 1790578954138,
+    "dateStr": "2026/9/28 12:32:34",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 4,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 0,
+      "correctCount": 0,
+      "wrongCount": 0,
+      "accuracy": 0,
+      "maxCombo": 0,
+      "scoreEarned": 0
+    },
+    "questions": []
+  },
+  {
+    "id": "rec_1790571540614_jzwx",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790571540614,
+    "dateStr": "2026/9/28 10:29:00",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 6,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 0,
+      "correctCount": 0,
+      "wrongCount": 0,
+      "accuracy": 0,
+      "maxCombo": 0,
+      "scoreEarned": 0
+    },
+    "questions": []
+  },
+  {
+    "id": "rec_1790570289553_30o3",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790570289553,
+    "dateStr": "2026/9/28 10:08:09",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 4,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 1,
+      "correctCount": 1,
+      "wrongCount": 0,
+      "accuracy": 100,
+      "maxCombo": 1,
+      "scoreEarned": 10
+    },
+    "questions": [
+      {
+        "id": "q_1790570187048_w4fr",
+        "expr": "48 - 12 = ?",
+        "answer": 36,
+        "userAnswer": 36,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790570187048
+      }
+    ]
+  },
+  {
+    "id": "rec_1790570006472_j8h2",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790570006472,
+    "dateStr": "2026/9/28 10:03:26",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 3,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 0,
+      "correctCount": 0,
+      "wrongCount": 0,
+      "accuracy": 0,
+      "maxCombo": 0,
+      "scoreEarned": 0
+    },
+    "questions": []
+  },
+  {
+    "id": "rec_1790567976868_7ieo",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790567976868,
+    "dateStr": "2026/9/28 09:29:36",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 2,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 0,
+      "correctCount": 0,
+      "wrongCount": 0,
+      "accuracy": 0,
+      "maxCombo": 0,
+      "scoreEarned": 0
+    },
+    "questions": []
+  },
+  {
+    "id": "rec_1790473429037_7g0t",
+    "userId": "child_chuan",
+    "userName": "川川",
+    "userAvatar": "🐸",
+    "timestamp": 1790473429037,
+    "dateStr": "2026/9/27 07:13:49",
+    "levelId": 1,
+    "levelName": "第 1 关: 云端之径",
+    "result": "DEFEAT",
+    "waveReached": 2,
+    "maxWaves": 15,
+    "stats": {
+      "totalAttempted": 2,
+      "correctCount": 1,
+      "wrongCount": 1,
+      "accuracy": 50,
+      "maxCombo": 1,
+      "scoreEarned": 10
+    },
+    "questions": [
+      {
+        "id": "q_1790473373414_kqwm",
+        "expr": "24 + 24 = ?",
+        "answer": 48,
+        "userAnswer": 99,
+        "isCorrect": false,
+        "isShieldNuke": false,
+        "time": 1790473373414
+      },
+      {
+        "id": "q_1790473383147_0372",
+        "expr": "24 + 24 = ?",
+        "answer": 48,
+        "userAnswer": 48,
+        "isCorrect": true,
+        "isShieldNuke": false,
+        "time": 1790473383147
+      }
+    ]
+  }
+]

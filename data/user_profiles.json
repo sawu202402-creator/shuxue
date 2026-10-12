@@ -1,0 +1,338 @@
+{
+    "activeUserId": "child_1790852522356",
+    "users": [
+        {
+            "id": "child_chuan",
+            "name": "川川",
+            "avatar": "🐸",
+            "difficulty": {
+                "mode": "custom",
+                "presetGrade": "grade1_2",
+                "operations": [
+                    "add",
+                    "sub"
+                ],
+                "range": 50,
+                "allowCarryBorrow": true,
+                "allowFillBlank": true,
+                "maxMultiplier": 5
+            }
+        },
+        {
+            "id": "child_lele",
+            "name": "小豌豆",
+            "avatar": "🐰",
+            "difficulty": {
+                "mode": "custom",
+                "presetGrade": "grade1_2",
+                "operations": [
+                    "add",
+                    "sub",
+                    "mul"
+                ],
+                "range": 100,
+                "allowCarryBorrow": true,
+                "allowFillBlank": true,
+                "maxMultiplier": 9
+            },
+            "history": [
+                {
+                    "id": "rec_1790587638121_jg6f",
+                    "userId": "child_lele",
+                    "userName": "小豌豆",
+                    "userAvatar": "🐰",
+                    "timestamp": 1790587638121,
+                    "dateStr": "2026/9/28 14:57:18",
+                    "levelId": 2,
+                    "levelName": "第 2 关: 蜿蜒云廊",
+                    "result": "DEFEAT",
+                    "waveReached": 6,
+                    "maxWaves": 18,
+                    "stats": {
+                        "totalAttempted": 0,
+                        "correctCount": 0,
+                        "wrongCount": 0,
+                        "accuracy": 0,
+                        "maxCombo": 0,
+                        "scoreEarned": 0
+                    },
+                    "questions": []
+                },
+                {
+                    "id": "rec_1790587638121_jg6f",
+                    "userId": "child_lele",
+                    "userName": "小豌豆",
+                    "userAvatar": "🐰",
+                    "timestamp": 1790587638121,
+                    "dateStr": "2026/9/28 14:57:18",
+                    "levelId": 2,
+                    "levelName": "第 2 关: 蜿蜒云廊",
+                    "result": "DEFEAT",
+                    "waveReached": 6,
+                    "maxWaves": 18,
+                    "stats": {
+                        "totalAttempted": 0,
+                        "correctCount": 0,
+                        "wrongCount": 0,
+                        "accuracy": 0,
+                        "maxCombo": 0,
+                        "scoreEarned": 0
+                    },
+                    "questions": []
+                },
+                {
+                    "id": "rec_1790578954138_hhzg",
+                    "userId": "child_lele",
+                    "userName": "小豌豆",
+                    "userAvatar": "🐰",
+                    "timestamp": 1790578954138,
+                    "dateStr": "2026/9/28 12:32:34",
+                    "levelId": 1,
+                    "levelName": "第 1 关: 云端之径",
+                    "result": "DEFEAT",
+                    "waveReached": 4,
+                    "maxWaves": 15,
+                    "stats": {
+                        "totalAttempted": 0,
+                        "correctCount": 0,
+                        "wrongCount": 0,
+                        "accuracy": 0,
+                        "maxCombo": 0,
+                        "scoreEarned": 0
+                    },
+                    "questions": []
+                }
+            ]
+        },
+        {
+            "id": "child_1",
+            "name": "妈妈",
+            "avatar": "🐱",
+            "difficulty": {
+                "mode": "custom",
+                "operations": [
+                    "add",
+                    "sub",
+                    "mul",
+                    "div"
+                ],
+                "range": 1000,
+                "allowFillBlank": true,
+                "allowCarryBorrow": true
+            }
+        },
+        {
+            "id": "child_1790168368446",
+            "name": "小花",
+            "avatar": "🥕",
+            "difficulty": {
+                "mode": "custom",
+                "presetGrade": "grade1_2",
+                "operations": [
+                    "add",
+                    "sub",
+                    "mul"
+                ],
+                "range": 100,
+                "allowFillBlank": true,
+                "allowCarryBorrow": true
+            }
+        },
+        {
+            "id": "child_1790852522356",
+            "name": "皮皮",
+            "avatar": "🦁",
+            "difficulty": {
+                "mode": "preset",
+                "operations": [
+                    "add",
+                    "sub"
+                ],
+                "range": 20,
+                "maxMultiplier": 5,
+                "allowFillBlank": true,
+                "allowCarryBorrow": true,
+                "presetGrade": "grade1_2"
+            },
+            "history": [
+                {
+                    "id": "rec_1790852884588_furj",
+                    "userId": "child_1790852522356",
+                    "userName": "皮皮",
+                    "userAvatar": "🦁",
+                    "timestamp": 1790852884588,
+                    "dateStr": "2026/10/1 19:08:04",
+                    "levelId": 1,
+                    "levelName": "第 1 关: 云端之径",
+                    "result": "DEFEAT",
+                    "waveReached": 2,
+                    "maxWaves": 15,
+                    "stats": {
+                        "totalAttempted": 5,
+                        "correctCount": 3,
+                        "wrongCount": 2,
+                        "accuracy": 60,
+                        "maxCombo": 3,
+                        "scoreEarned": 30
+                    },
+                    "questions": [
+                        {
+                            "id": "q_1790852812935_h386",
+                            "expr": "11 - 9 = ?",
+                            "answer": 2,
+                            "userAnswer": 2,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852812935
+                        },
+                        {
+                            "id": "q_1790852824448_7xf3",
+                            "expr": "30 - 10 = ?",
+                            "answer": 20,
+                            "userAnswer": 20,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852824448
+                        },
+                        {
+                            "id": "q_1790852836133_fez4",
+                            "expr": "14 - 10 = ?",
+                            "answer": 4,
+                            "userAnswer": 4,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852836133
+                        },
+                        {
+                            "id": "q_1790852871629_ryui",
+                            "expr": "15 - 9 = ?",
+                            "answer": 6,
+                            "userAnswer": 4,
+                            "isCorrect": false,
+                            "isShieldNuke": false,
+                            "time": 1790852871629
+                        },
+                        {
+                            "id": "q_1790852879205_jupu",
+                            "expr": "15 - 9 = ?",
+                            "answer": 6,
+                            "userAnswer": 14,
+                            "isCorrect": false,
+                            "isShieldNuke": false,
+                            "time": 1790852879205
+                        }
+                    ]
+                },
+                {
+                    "id": "rec_1790852884588_furj",
+                    "userId": "child_1790852522356",
+                    "userName": "皮皮",
+                    "userAvatar": "🦁",
+                    "timestamp": 1790852884588,
+                    "dateStr": "2026/10/1 19:08:04",
+                    "levelId": 1,
+                    "levelName": "第 1 关: 云端之径",
+                    "result": "DEFEAT",
+                    "waveReached": 2,
+                    "maxWaves": 15,
+                    "stats": {
+                        "totalAttempted": 5,
+                        "correctCount": 3,
+                        "wrongCount": 2,
+                        "accuracy": 60,
+                        "maxCombo": 3,
+                        "scoreEarned": 30
+                    },
+                    "questions": [
+                        {
+                            "id": "q_1790852812935_h386",
+                            "expr": "11 - 9 = ?",
+                            "answer": 2,
+                            "userAnswer": 2,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852812935
+                        },
+                        {
+                            "id": "q_1790852824448_7xf3",
+                            "expr": "30 - 10 = ?",
+                            "answer": 20,
+                            "userAnswer": 20,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852824448
+                        },
+                        {
+                            "id": "q_1790852836133_fez4",
+                            "expr": "14 - 10 = ?",
+                            "answer": 4,
+                            "userAnswer": 4,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852836133
+                        },
+                        {
+                            "id": "q_1790852871629_ryui",
+                            "expr": "15 - 9 = ?",
+                            "answer": 6,
+                            "userAnswer": 4,
+                            "isCorrect": false,
+                            "isShieldNuke": false,
+                            "time": 1790852871629
+                        },
+                        {
+                            "id": "q_1790852879205_jupu",
+                            "expr": "15 - 9 = ?",
+                            "answer": 6,
+                            "userAnswer": 14,
+                            "isCorrect": false,
+                            "isShieldNuke": false,
+                            "time": 1790852879205
+                        }
+                    ]
+                },
+                {
+                    "id": "rec_1790852787262_3xmw",
+                    "userId": "child_1790852522356",
+                    "userName": "皮皮",
+                    "userAvatar": "🦁",
+                    "timestamp": 1790852787262,
+                    "dateStr": "2026/10/1 19:06:27",
+                    "levelId": 1,
+                    "levelName": "第 1 关: 云端之径",
+                    "result": "DEFEAT",
+                    "waveReached": 2,
+                    "maxWaves": 15,
+                    "stats": {
+                        "totalAttempted": 2,
+                        "correctCount": 2,
+                        "wrongCount": 0,
+                        "accuracy": 100,
+                        "maxCombo": 2,
+                        "scoreEarned": 20
+                    },
+                    "questions": [
+                        {
+                            "id": "q_1790852761714_ho7u",
+                            "expr": "12 - 3 = ?",
+                            "answer": 9,
+                            "userAnswer": 9,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852761714
+                        },
+                        {
+                            "id": "q_1790852786841_6vwg",
+                            "expr": "8 + 9 = ?",
+                            "answer": 17,
+                            "userAnswer": 17,
+                            "isCorrect": true,
+                            "isShieldNuke": false,
+                            "time": 1790852786841
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

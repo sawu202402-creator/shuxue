@@ -1,0 +1,18 @@
+# Archives & Raw Materials
+*.zip
+素材/
+__pycache__/
+*.pyc
+
+# Temporary screenshots & scratch files
+scratch/
+level*.png
+distributed_*.png
+clean_canvas_*.png
+ipad_*.png
+qrcode.png
+canvas_level_*.png
+
+# Local dev server & OS files
+.DS_Store
+Thumbs.db
