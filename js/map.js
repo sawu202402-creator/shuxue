@@ -7355,7 +7355,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j13_jungle_chest_big_0_2",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "j13_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j13_jungle_hut_10_0",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FAN",
+                                    "level": 1,
+                                    "slotC": 10,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j13_jungle_totem_1_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 1,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j13_jungle_chest_small_4_0",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 4,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j13_jungle_mushroom_5_4",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 5,
+                        "r": 4,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j13_jungle_rock_7_2",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 7,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j13_jungle_stump_7_6",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 7,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "14": {
         "id": 14,
@@ -7896,7 +8006,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j14_jungle_chest_big_2_2",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 2,
+                        "r": 2,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "GEOM_LASER",
+                                    "level": 2,
+                                    "slotC": 2,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "j14_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j14_jungle_hut_7_0",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 7,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FIRE_BOTTLE",
+                                    "level": 1,
+                                    "slotC": 7,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j14_jungle_totem_0_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j14_jungle_chest_small_5_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 5,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j14_jungle_mushroom_11_1",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j14_jungle_rock_0_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j14_jungle_stump_6_3",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 6,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "15": {
         "id": 15,
@@ -8472,7 +8692,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j15_jungle_chest_big_2_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 2,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j15_jungle_tree_big_6_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 6,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j15_jungle_hut_2_3",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 2,
+                        "r": 3,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FIRE_BOTTLE",
+                                    "level": 1,
+                                    "slotC": 2,
+                                    "slotR": 3
+                        }
+            },
+            {
+                        "id": "j15_jungle_totem_11_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j15_jungle_chest_small_11_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 11,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j15_jungle_mushroom_0_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 0,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j15_jungle_rock_8_2",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 8,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j15_jungle_stump_6_0",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "16": {
         "id": 16,
@@ -8944,7 +9274,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j16_jungle_chest_big_0_2",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "j16_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j16_jungle_hut_7_0",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 7,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "MUL_CANNON",
+                                    "level": 1,
+                                    "slotC": 7,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j16_jungle_totem_5_4",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 5,
+                        "r": 4,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j16_jungle_chest_small_1_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 1,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j16_jungle_mushroom_11_1",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j16_jungle_rock_2_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j16_jungle_stump_7_6",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 7,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "17": {
         "id": 17,
@@ -9402,7 +9842,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j17_jungle_chest_big_0_4",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 4,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "FIRE_BOTTLE",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 4
+                        }
+            },
+            {
+                        "id": "j17_jungle_tree_big_10_0",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j17_jungle_hut_7_5",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 7,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 7,
+                                    "slotR": 5
+                        }
+            },
+            {
+                        "id": "j17_jungle_totem_4_2",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 4,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j17_jungle_chest_small_1_0",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 1,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j17_jungle_mushroom_3_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j17_jungle_rock_11_4",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 11,
+                        "r": 4,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j17_jungle_stump_6_0",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "18": {
         "id": 18,
@@ -9910,7 +10460,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j18_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j18_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j18_jungle_hut_3_4",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 3,
+                        "r": 4,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "MUL_CANNON",
+                                    "level": 1,
+                                    "slotC": 3,
+                                    "slotR": 4
+                        }
+            },
+            {
+                        "id": "j18_jungle_totem_7_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 7,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j18_jungle_chest_small_0_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 0,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j18_jungle_mushroom_6_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 6,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j18_jungle_rock_11_1",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j18_jungle_stump_0_3",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 0,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "19": {
         "id": 19,
@@ -10414,7 +11074,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j19_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "GEOM_LASER",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j19_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j19_jungle_hut_2_5",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 2,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "BALL",
+                                    "level": 1,
+                                    "slotC": 2,
+                                    "slotR": 5
+                        }
+            },
+            {
+                        "id": "j19_jungle_totem_6_2",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 6,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j19_jungle_chest_small_11_0",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j19_jungle_mushroom_4_0",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 4,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j19_jungle_rock_5_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 5,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j19_jungle_stump_0_3",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 0,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "20": {
         "id": 20,
@@ -10862,7 +11632,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j20_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "GEOM_LASER",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j20_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j20_jungle_hut_4_2",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 4,
+                        "r": 2,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FAN",
+                                    "level": 1,
+                                    "slotC": 4,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "j20_jungle_totem_11_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j20_jungle_chest_small_1_5",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 1,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j20_jungle_mushroom_5_5",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 5,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j20_jungle_rock_7_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 7,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j20_jungle_stump_9_2",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 9,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "21": {
         "id": 21,
@@ -11272,7 +12152,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j21_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "GEOM_LASER",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j21_jungle_tree_big_5_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 5,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j21_jungle_hut_0_5",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FIRE_BOTTLE",
+                                    "level": 1,
+                                    "slotC": 0,
+                                    "slotR": 5
+                        }
+            },
+            {
+                        "id": "j21_jungle_totem_11_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j21_jungle_chest_small_10_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 10,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j21_jungle_mushroom_3_2",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 3,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j21_jungle_rock_6_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j21_jungle_stump_8_3",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 8,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "22": {
         "id": 22,
@@ -11697,7 +12687,111 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j22_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ROCKET",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j22_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j22_jungle_hut_2_5",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 2,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j22_jungle_totem_6_1",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j22_jungle_chest_small_11_0",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j22_jungle_mushroom_6_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 6,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j22_jungle_rock_3_2",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 3,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j22_jungle_stump_0_3",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 0,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "23": {
         "id": 23,
@@ -12087,7 +13181,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j23_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j23_jungle_tree_big_10_5",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 10,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j23_jungle_hut_0_5",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "GEOM_LASER",
+                                    "level": 1,
+                                    "slotC": 0,
+                                    "slotR": 5
+                        }
+            },
+            {
+                        "id": "j23_jungle_totem_11_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j23_jungle_chest_small_5_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 5,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j23_jungle_mushroom_3_2",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 3,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j23_jungle_rock_6_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j23_jungle_stump_9_2",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 9,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "24": {
         "id": 24,
@@ -12651,7 +13855,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "j24_jungle_chest_big_0_0",
+                        "type": "jungle_chest_big",
+                        "name": "远古大金箱",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "j24_jungle_tree_big_8_3",
+                        "type": "jungle_tree_big",
+                        "name": "热带古树",
+                        "c": 8,
+                        "r": 3,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "j24_jungle_hut_4_2",
+                        "type": "jungle_hut",
+                        "name": "原始树屋",
+                        "c": 4,
+                        "r": 2,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "hp": 2000,
+                        "rewardGold": 160,
+                        "hiddenTower": {
+                                    "typeKey": "FAN",
+                                    "level": 1,
+                                    "slotC": 4,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "j24_jungle_totem_11_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j24_jungle_chest_small_1_6",
+                        "type": "jungle_chest_small",
+                        "name": "丛林小木箱",
+                        "c": 1,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "j24_jungle_mushroom_11_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 11,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j24_jungle_rock_6_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 6,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j24_jungle_stump_6_0",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "25": {
         "id": 25,

@@ -4,7 +4,7 @@
 
 import { ENEMY_TYPES } from './config.js?v=20260926_ipad_perf_v1';
 
-const ASSET_VER = '20261022_desert_orient_v2';
+const ASSET_VER = '20261022_jungle_fix_v8';
 function loadImg(src) {
     const img = new Image();
     img.src = `${src}?v=${ASSET_VER}`;
@@ -153,6 +153,12 @@ export class Enemy {
         this.spawnAnim = 0.25; // 登场时空门弹出动画 (从 0.2 缩放到 1.0)
         this.isDead = false;
         this.reachedEnd = false;
+        this.facing = 1; // 1: 朝右, -1: 朝左 (怪兽朝向水平镜像自适应)
+        if (this.waypoints && this.waypoints.length > 1) {
+            if (this.waypoints[1].x < this.waypoints[0].x) {
+                this.facing = -1;
+            }
+        }
 
         // 特殊数学护盾怪 (严格遵循玩家所选算术法则)
         this.hasMathShield = !!this.config.hasMathShield || (this.typeKey === 'SHIELD_MATH') || !!hasMathShield;
@@ -282,6 +288,13 @@ export class Enemy {
         const dy = targetWp.y - this.y;
         const dist = Math.hypot(dx, dy);
 
+        // 动态根据移动航向更新怪兽面朝方向 (平滑阈值 1.5px 避免垂直移动时微小抖动)
+        if (dx < -1.5) {
+            this.facing = -1;
+        } else if (dx > 1.5) {
+            this.facing = 1;
+        }
+
         const currentSpeed = this.baseSpeed * this.slowFactor;
         const moveStep = currentSpeed * dt;
 
@@ -404,6 +417,11 @@ export class Enemy {
         // 减速发蓝
         if (this.slowTimer > 0) {
             ctx.filter = 'hue-rotate(180deg) saturate(1.8)';
+        }
+
+        // 根据移动航向进行水平镜像翻转 (仅对怪兽模型生效，不影响外部血条、数学盾和锁定框)
+        if (this.facing === -1) {
+            ctx.scale(-1, 1);
         }
 
         if (sprite && sprite.complete && sprite.naturalWidth > 0) {
