@@ -107,6 +107,203 @@ export class MathEngine {
     }
 
     // 基于用户个性化选项动态生成算式 (支持加减乘除任意组合、数值范围与填空)
+    // 生成高质量加法（精准支持20以内凑十法进位、100以内进位与不进位模式）
+    generateAddition(range, allowCarry, isFillBlank = false) {
+        let a, b, hint = '';
+        // 开启进位退位时，75% 概率高频出现真正的进位加法攻坚题，25% 为不进位基础巩固题
+        const shouldCarry = allowCarry && (Math.random() < 0.75);
+
+        if (range <= 10) {
+            // 10以内加法（结果 <= 10，自然不存在跨十进位）
+            a = Math.floor(Math.random() * 8) + 1; // 1~8
+            b = Math.floor(Math.random() * (10 - a)) + 1; // 1~(10-a)
+            hint = '10以内加法';
+        } else if (range <= 20) {
+            if (shouldCarry) {
+                // 20以内进位加法（小学经典凑十法：单数加单数，个位相加 >= 10，和为 11~18）
+                a = Math.floor(Math.random() * 8) + 2; // 2~9
+                const minB = 11 - a; // 保证 a + b >= 11 (跨十进位)
+                const maxB = 9;      // 保证 b 为一位数
+                b = Math.floor(Math.random() * (maxB - minB + 1)) + minB;
+                hint = '20以内进位加法 (凑十法)';
+            } else {
+                // 20以内不进位加法（严格保证个位相加 < 10）
+                if (Math.random() < 0.4) {
+                    // 10以内不进位：如 3 + 5 = 8
+                    a = Math.floor(Math.random() * 7) + 1;
+                    b = Math.floor(Math.random() * (9 - a)) + 1;
+                } else {
+                    // 十几加几不进位：如 12 + 5 = 17, 14 + 3 = 17
+                    a = Math.floor(Math.random() * 8) + 11; // 11~18
+                    const maxB = 9 - (a % 10); // 保证个位相加 < 10
+                    b = Math.floor(Math.random() * Math.max(1, maxB)) + 1;
+                }
+                hint = '20以内不进位加法';
+            }
+        } else if (range <= 100) {
+            if (shouldCarry) {
+                // 100以内进位加法（两位数加一位数进位，或两位数加两位数进位）
+                if (Math.random() < 0.45) {
+                    // 两位数加一位数进位：例如 28 + 7 = 35, 45 + 8 = 53
+                    const aTens = Math.floor(Math.random() * (Math.floor(range / 10) - 2)) + 1; // 10, 20...
+                    const aOnes = Math.floor(Math.random() * 8) + 2; // 2~9
+                    a = aTens * 10 + aOnes;
+                    const minB = 10 - aOnes; // 保证个位相加 >= 10
+                    const maxB = Math.min(9, range - a);
+                    b = Math.floor(Math.random() * (maxB - minB + 1)) + minB;
+                    hint = '两位数加一位数 (进位)';
+                } else {
+                    // 两位数加两位数进位：例如 28 + 35 = 63, 37 + 46 = 83
+                    const maxTensSum = Math.floor(range / 10) - 2;
+                    const aTens = Math.floor(Math.random() * Math.max(1, maxTensSum - 1)) + 1;
+                    const aOnes = Math.floor(Math.random() * 8) + 2; // 2~9
+                    a = aTens * 10 + aOnes;
+                    
+                    const minBTens = 1;
+                    const maxBTens = Math.max(1, maxTensSum - aTens);
+                    const bTens = Math.floor(Math.random() * (maxBTens - minBTens + 1)) + minBTens;
+                    const minBOnes = 10 - aOnes;
+                    const maxBOnes = 9;
+                    const bOnes = Math.floor(Math.random() * (maxBOnes - minBOnes + 1)) + minBOnes;
+                    b = bTens * 10 + bOnes;
+                    hint = '100以内进位加法';
+                }
+            } else {
+                // 100以内不进位加法（严格保证个位相加 < 10）
+                const aTens = Math.floor(Math.random() * (Math.floor(range / 10) - 3)) + 1;
+                const aOnes = Math.floor(Math.random() * 8) + 1;
+                a = aTens * 10 + aOnes;
+                const maxBTens = Math.floor(range / 10) - 1 - aTens;
+                const bTens = Math.floor(Math.random() * Math.max(1, maxBTens));
+                const maxBOnes = 9 - aOnes;
+                const bOnes = Math.floor(Math.random() * (maxBOnes + 1));
+                b = bTens * 10 + bOnes;
+                if (b === 0) b = 1;
+                hint = '100以内不进位加法';
+            }
+        } else {
+            // 千以内加法心算
+            a = Math.floor(Math.random() * 450) + 50;
+            b = Math.floor(Math.random() * (1000 - a - 20)) + 20;
+            hint = '千以内加法心算';
+        }
+
+        const sum = a + b;
+        let expr = '';
+        let answer = sum;
+
+        if (isFillBlank) {
+            if (Math.random() > 0.5) {
+                expr = `${a} + ( ? ) = ${sum}`;
+                answer = b;
+            } else {
+                expr = `( ? ) + ${b} = ${sum}`;
+                answer = a;
+            }
+            hint += ' (填空)';
+        } else {
+            expr = `${a} + ${b} = ?`;
+        }
+
+        return { expr, answer, hint, a, b, sum, isCarry: (a % 10) + (b % 10) >= 10, type: 'add' };
+    }
+
+    // 生成高质量减法（精准支持20以内破十法退位、100以内退位与不退位模式）
+    generateSubtraction(range, allowCarry, isFillBlank = false) {
+        let a, b, hint = '';
+        // 开启进位退位时，75% 概率高频出现真正的退位减法攻坚题，25% 为不退位基础巩固题
+        const shouldBorrow = allowCarry && (Math.random() < 0.75);
+
+        if (range <= 10) {
+            // 10以内减法（不退位）
+            a = Math.floor(Math.random() * 9) + 2; // 2~10
+            b = Math.floor(Math.random() * (a - 1)) + 1;
+            hint = '10以内减法';
+        } else if (range <= 20) {
+            if (shouldBorrow) {
+                // 20以内退位减法（小学经典破十法：十几减几，个位不够减，差为一位数，如 15 - 8 = 7）
+                a = Math.floor(Math.random() * 8) + 11; // 11~18
+                const ones = a % 10;
+                const minB = ones + 1; // 保证个位不够减，必须破十退位
+                const maxB = 9;
+                b = Math.floor(Math.random() * (maxB - minB + 1)) + minB;
+                hint = '20以内退位减法 (破十法)';
+            } else {
+                // 20以内不退位减法
+                if (Math.random() < 0.4) {
+                    // 10以内减法：如 9 - 4 = 5
+                    a = Math.floor(Math.random() * 8) + 2;
+                    b = Math.floor(Math.random() * (a - 1)) + 1;
+                } else {
+                    // 十几减几不退位：如 17 - 4 = 13, 18 - 5 = 13 (个位够减)
+                    a = Math.floor(Math.random() * 8) + 11; // 11~18
+                    b = Math.floor(Math.random() * (a % 10)) + 1;
+                }
+                hint = '20以内不退位减法';
+            }
+        } else if (range <= 100) {
+            if (shouldBorrow) {
+                // 100以内退位减法（两位数减一位数退位，或两位数减两位数退位）
+                if (Math.random() < 0.45) {
+                    // 两位数减一位数退位：如 34 - 7 = 27, 52 - 8 = 44, 40 - 6 = 34
+                    const aTens = Math.floor(Math.random() * (Math.floor(range / 10) - 2)) + 2; // 20..90
+                    const aOnes = Math.floor(Math.random() * 9); // 0~8
+                    a = aTens * 10 + aOnes;
+                    const minB = aOnes + 1; // 保证个位不够减
+                    const maxB = 9;
+                    b = Math.floor(Math.random() * (maxB - minB + 1)) + minB;
+                    hint = '两位数减一位数 (退位)';
+                } else {
+                    // 两位数减两位数退位：如 62 - 37 = 25, 71 - 45 = 26
+                    const aTens = Math.floor(Math.random() * (Math.floor(range / 10) - 3)) + 3; // 30..90
+                    const aOnes = Math.floor(Math.random() * 9); // 0~8
+                    a = aTens * 10 + aOnes;
+                    
+                    const bTens = Math.floor(Math.random() * (aTens - 2)) + 1;
+                    const minBOnes = aOnes + 1;
+                    const maxBOnes = 9;
+                    const bOnes = Math.floor(Math.random() * (maxBOnes - minBOnes + 1)) + minBOnes;
+                    b = bTens * 10 + bOnes;
+                    hint = '100以内退位减法';
+                }
+            } else {
+                // 100以内不退位减法（个位够减，十位够减）
+                const aTens = Math.floor(Math.random() * (Math.floor(range / 10) - 2)) + 2;
+                const aOnes = Math.floor(Math.random() * 8) + 2;
+                a = aTens * 10 + aOnes;
+                const bTens = Math.floor(Math.random() * (aTens - 1)) + 1;
+                const bOnes = Math.floor(Math.random() * (aOnes - 1)) + 1;
+                b = bTens * 10 + bOnes;
+                hint = '100以内不退位减法';
+            }
+        } else {
+            // 千以内减法速算
+            a = Math.floor(Math.random() * 700) + 150;
+            b = Math.floor(Math.random() * (a - 50)) + 30;
+            hint = '千以内减法速算';
+        }
+
+        const diff = a - b;
+        let expr = '';
+        let answer = diff;
+
+        if (isFillBlank) {
+            if (Math.random() > 0.5) {
+                expr = `${a} - ( ? ) = ${diff}`;
+                answer = b;
+            } else {
+                expr = `( ? ) - ${b} = ${diff}`;
+                answer = a;
+            }
+            hint += ' (填空)';
+        } else {
+            expr = `${a} - ${b} = ?`;
+        }
+
+        return { expr, answer, hint, a, b, diff, isBorrow: (a % 10) < (b % 10), type: 'sub' };
+    }
+
+    // 基于用户个性化选项动态生成算式 (支持加减乘除任意组合、数值范围与填空)
     generateCustomQuestion() {
         const cfg = this.config || {};
         const ops = (cfg.operations && cfg.operations.length > 0) ? cfg.operations : ['add'];
@@ -117,115 +314,14 @@ export class MathEngine {
         const op = ops[Math.floor(Math.random() * ops.length)];
         const isFillBlank = allowFillBlank && Math.random() < 0.28;
 
-        let expr = '';
-        let answer = 0;
-        let hint = '';
-
         if (op === 'add') {
-            if (range <= 10) {
-                const a = Math.floor(Math.random() * 8) + 1;
-                const b = Math.floor(Math.random() * (10 - a)) + 1;
-                answer = a + b;
-                if (isFillBlank) {
-                    if (Math.random() > 0.5) {
-                        expr = `${a} + ( ? ) = ${answer}`;
-                        answer = b;
-                    } else {
-                        expr = `( ? ) + ${b} = ${answer}`;
-                        answer = a;
-                    }
-                    hint = '10以内凑数填空';
-                } else {
-                    expr = `${a} + ${b} = ?`;
-                    hint = '10以内加法';
-                }
-            } else if (range <= 20) {
-                let a, b;
-                if (allowCarry && Math.random() > 0.4) {
-                    a = Math.floor(Math.random() * 8) + 3;
-                    b = Math.floor(Math.random() * (20 - a - 2)) + Math.max(1, 10 - a + 1);
-                    b = Math.min(b, 20 - a);
-                } else {
-                    a = Math.floor(Math.random() * 11) + 2;
-                    b = Math.floor(Math.random() * (range - a)) + 1;
-                }
-                answer = a + b;
-                if (isFillBlank) {
-                    expr = `${a} + ( ? ) = ${answer}`;
-                    answer = b;
-                    hint = '20以内填空';
-                } else {
-                    expr = `${a} + ${b} = ?`;
-                    hint = '20以内口算';
-                }
-            } else if (range <= 100) {
-                if (Math.random() < 0.35) {
-                    const a = (Math.floor(Math.random() * 8) + 1) * 10;
-                    const maxB = Math.floor((range - a) / 10);
-                    const b = (Math.floor(Math.random() * Math.max(1, maxB)) + 1) * 10;
-                    expr = `${a} + ${b} = ?`;
-                    answer = a + b;
-                    hint = '整十快速加';
-                } else {
-                    const a = Math.floor(Math.random() * (range - 15)) + 10;
-                    const b = Math.floor(Math.random() * (range - a - 2)) + 2;
-                    answer = a + b;
-                    expr = `${a} + ${b} = ?`;
-                    hint = `${range}以内加法`;
-                }
-            } else {
-                const a = Math.floor(Math.random() * 450) + 50;
-                const b = Math.floor(Math.random() * (1000 - a - 20)) + 20;
-                answer = a + b;
-                expr = `${a} + ${b} = ?`;
-                hint = '千以内加法心算';
-            }
+            return this.generateAddition(range, allowCarry, isFillBlank);
         } else if (op === 'sub') {
-            if (range <= 10) {
-                const a = Math.floor(Math.random() * 9) + 2;
-                const b = Math.floor(Math.random() * (a - 1)) + 1;
-                answer = a - b;
-                if (isFillBlank) {
-                    expr = `${a} - ( ? ) = ${answer}`;
-                    answer = b;
-                    hint = '10以内减法填空';
-                } else {
-                    expr = `${a} - ${b} = ?`;
-                    hint = '10以内减法';
-                }
-            } else if (range <= 20) {
-                let a, b;
-                if (allowCarry && Math.random() > 0.4) {
-                    a = Math.floor(Math.random() * 8) + 11;
-                    b = Math.floor(Math.random() * (a - 10)) + (a % 10 + 1);
-                    b = Math.min(b, 9);
-                } else {
-                    a = Math.floor(Math.random() * 15) + 5;
-                    b = Math.floor(Math.random() * (a - 1)) + 1;
-                }
-                answer = a - b;
-                if (isFillBlank) {
-                    expr = `${a} - ( ? ) = ${answer}`;
-                    answer = b;
-                    hint = '20以内减法填空';
-                } else {
-                    expr = `${a} - ${b} = ?`;
-                    hint = '20以内减法';
-                }
-            } else if (range <= 100) {
-                const a = Math.floor(Math.random() * (range - 15)) + 15;
-                const b = Math.floor(Math.random() * (a - 5)) + 5;
-                answer = a - b;
-                expr = `${a} - ${b} = ?`;
-                hint = `${range}以内减法`;
-            } else {
-                const a = Math.floor(Math.random() * 700) + 150;
-                const b = Math.floor(Math.random() * (a - 50)) + 30;
-                answer = a - b;
-                expr = `${a} - ${b} = ?`;
-                hint = '千以内减法速算';
-            }
+            return this.generateSubtraction(range, allowCarry, isFillBlank);
         } else if (op === 'mul') {
+            let expr = '';
+            let answer = 0;
+            let hint = '';
             const limit = Math.max(2, Math.min(9, Number(cfg.maxMultiplier) || (range <= 25 ? 5 : 9)));
             if (range <= 100 || cfg.maxMultiplier) {
                 // 表内乘法（严格遵守因数 <= limit，最大算式为 limit × limit）
@@ -260,7 +356,11 @@ export class MathEngine {
                     hint = '整十数乘法';
                 }
             }
+            return { expr, answer, hint, type: 'mul' };
         } else if (op === 'div') {
+            let expr = '';
+            let answer = 0;
+            let hint = '';
             const limit = Math.max(2, Math.min(9, Number(cfg.maxMultiplier) || (range <= 25 ? 5 : 9)));
             if (range <= 100 || cfg.maxMultiplier) {
                 const b = Math.floor(Math.random() * (limit - 1)) + 2; // 除数 <= limit
@@ -283,64 +383,46 @@ export class MathEngine {
                 answer = ans;
                 hint = '整十整百除法';
             }
+            return { expr, answer, hint, type: 'div' };
         }
 
-        return {
-            expr,
-            answer,
-            hint: hint || '小学心算',
-            type: op
-        };
+        return this.generateAddition(range, allowCarry, isFillBlank);
     }
 
-
-    // 生成小学1-2年级题目
+    // 生成小学1-2年级题目（以20以内进位加法与退位减法为核心高频攻坚，兼顾填空与整十巩固）
     generateGrade1_2() {
-        const subType = Math.floor(Math.random() * 4);
-        let expr = '';
-        let answer = 0;
-        let hint = '';
+        const allowCarry = this.config?.allowCarryBorrow !== false;
+        const allowFill = this.config?.allowFillBlank !== false;
+        const roll = Math.random();
 
-        if (subType === 0) {
-            // 20以内加法
-            const a = Math.floor(Math.random() * 11) + 2; // 2~12
-            const b = Math.floor(Math.random() * 10) + 1; // 1~10
-            expr = `${a} + ${b} = ?`;
-            answer = a + b;
-            hint = '加法口算';
-        } else if (subType === 1) {
-            // 20以内减法（保证结果 > 0）
-            const a = Math.floor(Math.random() * 12) + 7; // 7~18
-            const b = Math.floor(Math.random() * (a - 1)) + 1;
-            expr = `${a} - ${b} = ?`;
-            answer = a - b;
-            hint = '减法口算';
-        } else if (subType === 2) {
-            // 100以内整十数加减
+        if (roll < 0.40) {
+            // 40% 20以内加法 (高频进位凑十法)
+            const res = this.generateAddition(20, allowCarry, false);
+            res.type = 'grade1_2';
+            return res;
+        } else if (roll < 0.80) {
+            // 40% 20以内减法 (高频退位破十法)
+            const res = this.generateSubtraction(20, allowCarry, false);
+            res.type = 'grade1_2';
+            return res;
+        } else if (roll < 0.90 && allowFill) {
+            // 10% 进退位凑数填空题 (8 + ? = 15 或 13 - ? = 6)
             const isAdd = Math.random() > 0.5;
+            const res = isAdd ? this.generateAddition(20, allowCarry, true) : this.generateSubtraction(20, allowCarry, true);
+            res.type = 'grade1_2';
+            return res;
+        } else {
+            // 10% 整十数速算巩固 (如 20 + 30 = 50, 70 - 40 = 30)
             const a = (Math.floor(Math.random() * 8) + 1) * 10;
             const b = (Math.floor(Math.random() * 8) + 1) * 10;
-            if (isAdd) {
-                expr = `${a} + ${b} = ?`;
-                answer = a + b;
+            if (Math.random() > 0.5) {
+                return { expr: `${a} + ${b} = ?`, answer: a + b, hint: '整十速算 (加)', type: 'grade1_2' };
             } else {
                 const maxVal = Math.max(a, b);
                 const minVal = Math.min(a, b);
-                expr = `${maxVal} - ${minVal} = ?`;
-                answer = maxVal - minVal;
+                return { expr: `${maxVal} - ${minVal} = ?`, answer: maxVal - minVal, hint: '整十速算 (减)', type: 'grade1_2' };
             }
-            hint = '整十速算';
-        } else {
-            // 填空加法 (8 + ? = 15)
-            const a = Math.floor(Math.random() * 9) + 2;
-            const ans = Math.floor(Math.random() * 9) + 1;
-            const total = a + ans;
-            expr = `${a} + ( ? ) = ${total}`;
-            answer = ans;
-            hint = '凑数填空';
         }
-
-        return { expr, answer, hint, type: 'grade1_2' };
     }
 
     // 生成小学3-4年级题目
@@ -477,95 +559,15 @@ export class MathEngine {
         let hint = '';
 
         if (op === 'add') {
-            if (range <= 10) {
-                const a = Math.floor(Math.random() * 8) + 1;
-                const b = Math.floor(Math.random() * (10 - a)) + 1;
-                const sum = a + b;
-                if (Math.random() > 0.4) {
-                    expr = `${a} + ? = ${sum}`;
-                    answer = b;
-                } else {
-                    expr = `${a} + ${b} = ?`;
-                    answer = sum;
-                }
-                hint = '10以内加法护盾';
-            } else if (range <= 20) {
-                let a, b;
-                if (allowCarry && Math.random() > 0.4) {
-                    a = Math.floor(Math.random() * 8) + 3;
-                    b = Math.floor(Math.random() * (20 - a - 2)) + Math.max(1, 10 - a + 1);
-                    b = Math.min(b, 20 - a);
-                } else {
-                    a = Math.floor(Math.random() * 11) + 2;
-                    b = Math.floor(Math.random() * (range - a)) + 1;
-                }
-                const sum = a + b;
-                if (Math.random() > 0.4) {
-                    expr = `${a} + ? = ${sum}`;
-                    answer = b;
-                } else {
-                    expr = `${a} + ${b} = ?`;
-                    answer = sum;
-                }
-                hint = '20以内加法护盾';
-            } else {
-                const a = Math.floor(Math.random() * (range - 15)) + 10;
-                const b = Math.floor(Math.random() * (range - a - 2)) + 2;
-                const sum = a + b;
-                if (Math.random() > 0.5) {
-                    expr = `${a} + ? = ${sum}`;
-                    answer = b;
-                } else {
-                    expr = `${a} + ${b} = ?`;
-                    answer = sum;
-                }
-                hint = `${range}以内加法护盾`;
-            }
+            const addRes = this.generateAddition(range, allowCarry, Math.random() > 0.4);
+            expr = addRes.expr.replace(/\( \? \)/g, '?');
+            answer = addRes.answer;
+            hint = `${range}以内加法护盾`;
         } else if (op === 'sub') {
-            if (range <= 10) {
-                const a = Math.floor(Math.random() * 9) + 2;
-                const b = Math.floor(Math.random() * (a - 1)) + 1;
-                const diff = a - b;
-                if (Math.random() > 0.4) {
-                    expr = `${a} - ? = ${diff}`;
-                    answer = b;
-                } else {
-                    expr = `${a} - ${b} = ?`;
-                    answer = diff;
-                }
-                hint = '10以内减法护盾';
-            } else if (range <= 20) {
-                let a, b;
-                if (allowCarry && Math.random() > 0.4) {
-                    a = Math.floor(Math.random() * 8) + 11;
-                    b = Math.floor(Math.random() * (a - 10)) + (a % 10 + 1);
-                    b = Math.min(b, 9);
-                } else {
-                    a = Math.floor(Math.random() * 15) + 5;
-                    b = Math.floor(Math.random() * (a - 1)) + 1;
-                }
-                const diff = a - b;
-                if (Math.random() > 0.4) {
-                    expr = `${a} - ? = ${diff}`;
-                    answer = b;
-                } else {
-                    expr = `${a} - ${b} = ?`;
-                    answer = diff;
-                }
-                hint = '20以内减法护盾';
-            } else {
-                const a = Math.floor(Math.random() * (range - 15)) + 15;
-                const b = Math.floor(Math.random() * (a - 5)) + 5;
-                const diff = a - b;
-                if (Math.random() > 0.5) {
-                    expr = `${a} - ? = ${diff}`;
-                    answer = b;
-                } else {
-                    expr = `${a} - ${b} = ?`;
-                    answer = diff;
-                }
-                hint = `${range}以内减法护盾`;
-            }
+            const subRes = this.generateSubtraction(range, allowCarry, Math.random() > 0.4);
+            expr = subRes.expr.replace(/\( \? \)/g, '?');
+            answer = subRes.answer;
+            hint = `${range}以内减法护盾`;
         } else if (op === 'mul') {
             // 表内乘法：因数严格受到 maxMul 限制 (如选5则最大 5×5)
             const a = Math.floor(Math.random() * (maxMul - 1)) + 2;
