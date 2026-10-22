@@ -4,7 +4,7 @@
 
 import { ENEMY_TYPES } from './config.js?v=20260926_ipad_perf_v1';
 
-const ASSET_VER = '20260925_all_monsters_v1';
+const ASSET_VER = '20261022_desert_orient_v2';
 function loadImg(src) {
     const img = new Image();
     img.src = `${src}?v=${ASSET_VER}`;

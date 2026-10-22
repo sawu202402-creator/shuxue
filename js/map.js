@@ -13141,7 +13141,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d25_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d25_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d25_desert_totem_4_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d25_desert_skull_fossils_5_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 5,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d25_desert_chest_small_6_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d25_desert_cactus_small_7_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d25_desert_bush_8_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 8,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d25_desert_rock_9_1",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 9,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "26": {
         "id": 26,
@@ -13666,7 +13776,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d26_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d26_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d26_desert_totem_11_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d26_desert_skull_fossils_0_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 0,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d26_desert_chest_small_4_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d26_desert_cactus_small_5_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d26_desert_bush_6_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d26_desert_rock_1_2",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 1,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "27": {
         "id": 27,
@@ -13941,7 +14161,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d27_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d27_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d27_desert_totem_6_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d27_desert_skull_fossils_7_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 7,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d27_desert_chest_small_4_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d27_desert_cactus_small_5_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d27_desert_bush_8_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 8,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d27_desert_rock_9_1",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 9,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "28": {
         "id": 28,
@@ -14516,7 +14846,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d28_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d28_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d28_desert_totem_6_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d28_desert_skull_fossils_7_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 7,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d28_desert_chest_small_4_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d28_desert_cactus_small_11_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d28_desert_bush_0_2",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d28_desert_rock_8_2",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 8,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "29": {
         "id": 29,
@@ -15011,7 +15451,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d29_desert_chest_big_4_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 4,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 4,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d29_desert_cactus_big_6_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 6,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d29_desert_totem_0_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 0,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d29_desert_skull_fossils_2_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 2,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 2,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d29_desert_chest_small_8_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 8,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d29_desert_cactus_small_5_2",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 5,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d29_desert_bush_6_2",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 6,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d29_desert_rock_7_2",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 7,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "30": {
         "id": 30,
@@ -15521,7 +16071,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d30_desert_chest_big_5_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 5,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 5,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d30_desert_cactus_big_10_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d30_desert_totem_0_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 0,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d30_desert_skull_fossils_2_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 2,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 2,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d30_desert_chest_small_3_2",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 3,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d30_desert_cactus_small_5_2",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 5,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d30_desert_bush_6_2",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 6,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d30_desert_rock_8_2",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 8,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "31": {
         "id": 31,
@@ -16113,7 +16773,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d31_desert_chest_big_4_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 4,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 4,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d31_desert_cactus_big_10_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d31_desert_totem_0_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 0,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d31_desert_skull_fossils_2_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 2,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 2,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d31_desert_chest_small_7_2",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 7,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d31_desert_cactus_small_8_2",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 8,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d31_desert_bush_11_2",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 11,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d31_desert_rock_0_3",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 0,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "32": {
         "id": 32,
@@ -16544,7 +17314,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d32_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d32_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d32_desert_totem_4_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d32_desert_skull_fossils_5_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 5,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d32_desert_chest_small_6_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d32_desert_cactus_small_7_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d32_desert_bush_8_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 8,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d32_desert_rock_9_1",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 9,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "33": {
         "id": 33,
@@ -16949,7 +17829,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d33_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d33_desert_cactus_big_0_5",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d33_desert_totem_11_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d33_desert_skull_fossils_0_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 0,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d33_desert_chest_small_1_2",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 1,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d33_desert_cactus_small_10_2",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 10,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d33_desert_bush_10_3",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 10,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d33_desert_rock_11_3",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 11,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "34": {
         "id": 34,
@@ -17340,7 +18330,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d34_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d34_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d34_desert_totem_10_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 10,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d34_desert_skull_fossils_11_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 11,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 11,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d34_desert_chest_small_4_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d34_desert_cactus_small_5_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d34_desert_bush_6_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d34_desert_rock_7_1",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "35": {
         "id": 35,
@@ -17778,7 +18878,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d35_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d35_desert_cactus_big_2_0",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d35_desert_totem_4_1",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 4,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d35_desert_skull_fossils_5_1",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 5,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 5,
+                                    "slotR": 1
+                        }
+            },
+            {
+                        "id": "d35_desert_chest_small_6_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 6,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d35_desert_cactus_small_7_1",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 7,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d35_desert_bush_8_1",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 8,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d35_desert_rock_9_1",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 9,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "36": {
         "id": 36,
@@ -18184,7 +19394,117 @@ export const LEVEL_CONFIGS = {
                 "occupied": false,
                 "tower": null
             }
-        ]
+        ],
+        "props": [
+            {
+                        "id": "d36_desert_chest_big_0_0",
+                        "type": "desert_chest_big",
+                        "name": "法老大金棺",
+                        "c": 0,
+                        "r": 0,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_chest_big.png",
+                        "hp": 3200,
+                        "rewardGold": 200,
+                        "hiddenTower": {
+                                    "typeKey": "ADD_RAPID",
+                                    "level": 2,
+                                    "slotC": 0,
+                                    "slotR": 0
+                        }
+            },
+            {
+                        "id": "d36_desert_cactus_big_0_5",
+                        "type": "desert_cactus_big",
+                        "name": "巨型沙丘仙人掌",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 2,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
+                        "hp": 2000,
+                        "rewardGold": 160
+            },
+            {
+                        "id": "d36_desert_totem_0_2",
+                        "type": "desert_totem",
+                        "name": "古遗迹图腾柱",
+                        "c": 0,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "d36_desert_skull_fossils_4_2",
+                        "type": "desert_skull_fossils",
+                        "name": "巨兽骨骼化石",
+                        "c": 4,
+                        "r": 2,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
+                        "hp": 2000,
+                        "rewardGold": 150,
+                        "hiddenTower": {
+                                    "typeKey": "DIV_FROST",
+                                    "level": 1,
+                                    "slotC": 4,
+                                    "slotR": 2
+                        }
+            },
+            {
+                        "id": "d36_desert_chest_small_2_1",
+                        "type": "desert_chest_small",
+                        "name": "金光秘宝壶",
+                        "c": 2,
+                        "r": 1,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_chest_small.png",
+                        "hp": 1000,
+                        "rewardGold": 100
+            },
+            {
+                        "id": "d36_desert_cactus_small_2_3",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 2,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d36_desert_bush_3_3",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 3,
+                        "r": 3,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d36_desert_rock_0_4",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 0,
+                        "r": 4,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            }
+]
     },
     "37": {
         "id": 37,

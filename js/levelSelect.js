@@ -3,7 +3,7 @@
  * 1:1 还原官方主题画册（天际/丛林/沙漠/深海）与拍立得花边地图卡片轮播
  */
 
-import { LEVEL_CONFIGS } from './map.js?v=20260928_props_v6';
+import { LEVEL_CONFIGS } from './map.js?v=20261022_desert_props_v7';
 
 export const THEMES_DATA = [
     {

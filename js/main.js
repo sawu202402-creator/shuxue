@@ -11,14 +11,14 @@ import {
     MATH_RANGES, 
     MULTIPLIER_RANGES,
     DEFAULT_USER_PROFILES 
-} from './config.js?v=20260928_props_v6';
-import { LEVEL_CONFIGS } from './map.js?v=20260928_props_v6';
-import { sound } from './audio.js?v=20260928_props_v6';
-import { assetsManager } from './assetsLoader.js?v=20260928_props_v6';
-import { MathEngine } from './mathEngine.js?v=20260928_props_v6';
-import { GameEngine } from './gameEngine.js?v=20260928_props_v6';
-import { MapEditor } from './editor.js?v=20260928_props_v6';
-import { LevelSelectManager } from './levelSelect.js?v=20260928_props_v6';
+} from './config.js?v=20261022_desert_props_v7';
+import { LEVEL_CONFIGS } from './map.js?v=20261022_desert_props_v7';
+import { sound } from './audio.js?v=20261022_desert_props_v7';
+import { assetsManager } from './assetsLoader.js?v=20261022_desert_props_v7';
+import { MathEngine } from './mathEngine.js?v=20261022_desert_props_v7';
+import { GameEngine } from './gameEngine.js?v=20261022_desert_props_v7';
+import { MapEditor } from './editor.js?v=20261022_desert_props_v7';
+import { LevelSelectManager } from './levelSelect.js?v=20261022_desert_props_v7';
 
 // DOM 元素
 const canvas = document.getElementById('battleCanvas');
