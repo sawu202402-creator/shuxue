@@ -2,12 +2,12 @@
  * gameEngine.js - 塔防核心逻辑循环、波次生成器与物理结算
  */
 
-import { GAME_CONFIG, TOWER_TYPES } from './config.js?v=20261022_jungle_fix_v8';
-import { GameMap, MapProp } from './map.js?v=20261022_jungle_fix_v8';
-import { Tower } from './towers.js?v=20261022_jungle_fix_v8';
-import { Enemy } from './enemies.js?v=20261022_jungle_fix_v8';
-import { ProjectileSystem } from './projectiles.js?v=20261022_jungle_fix_v8';
-import { sound } from './audio.js?v=20261022_jungle_fix_v8';
+import { GAME_CONFIG, TOWER_TYPES } from './config.js?v=20261022_authentic_props_v9';
+import { GameMap, MapProp } from './map.js?v=20261022_authentic_props_v9';
+import { Tower } from './towers.js?v=20261022_authentic_props_v9';
+import { Enemy } from './enemies.js?v=20261022_authentic_props_v9';
+import { ProjectileSystem } from './projectiles.js?v=20261022_authentic_props_v9';
+import { sound } from './audio.js?v=20261022_authentic_props_v9';
 
 export class GameEngine {
     constructor(canvas, mathEngine, onStateChange) {

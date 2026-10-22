@@ -3,7 +3,7 @@
  * 允许玩家与开发者直接在画布上通过鼠标点击/涂抹来编辑怪兽路线、起点、终点及炮塔插槽
  */
 
-import { LEVEL_CONFIGS, MapProp } from './map.js?v=20261022_jungle_fix_v8';
+import { LEVEL_CONFIGS, MapProp } from './map.js?v=20261022_authentic_props_v9';
 
 export const STORAGE_KEY = 'CF_CUSTOM_LEVEL_CONFIGS';
 

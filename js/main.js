@@ -11,14 +11,14 @@ import {
     MATH_RANGES, 
     MULTIPLIER_RANGES,
     DEFAULT_USER_PROFILES 
-} from './config.js?v=20261022_jungle_fix_v8';
-import { LEVEL_CONFIGS } from './map.js?v=20261022_jungle_fix_v8';
-import { sound } from './audio.js?v=20261022_jungle_fix_v8';
-import { assetsManager } from './assetsLoader.js?v=20261022_jungle_fix_v8';
-import { MathEngine } from './mathEngine.js?v=20261022_jungle_fix_v8';
-import { GameEngine } from './gameEngine.js?v=20261022_jungle_fix_v8';
-import { MapEditor } from './editor.js?v=20261022_jungle_fix_v8';
-import { LevelSelectManager } from './levelSelect.js?v=20261022_jungle_fix_v8';
+} from './config.js?v=20261022_authentic_props_v9';
+import { LEVEL_CONFIGS } from './map.js?v=20261022_authentic_props_v9';
+import { sound } from './audio.js?v=20261022_authentic_props_v9';
+import { assetsManager } from './assetsLoader.js?v=20261022_authentic_props_v9';
+import { MathEngine } from './mathEngine.js?v=20261022_authentic_props_v9';
+import { GameEngine } from './gameEngine.js?v=20261022_authentic_props_v9';
+import { MapEditor } from './editor.js?v=20261022_authentic_props_v9';
+import { LevelSelectManager } from './levelSelect.js?v=20261022_authentic_props_v9';
 
 // DOM 元素
 const canvas = document.getElementById('battleCanvas');

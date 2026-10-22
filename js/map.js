@@ -7358,11 +7358,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "j13_jungle_chest_big_0_2",
+                        "id": "j13_jungle_chest_big_10_5",
                         "type": "jungle_chest_big",
                         "name": "远古大金箱",
-                        "c": 0,
-                        "r": 2,
+                        "c": 10,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_chest_big.png",
@@ -7371,15 +7371,15 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "DIV_FROST",
                                     "level": 2,
-                                    "slotC": 0,
-                                    "slotR": 2
+                                    "slotC": 10,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "j13_jungle_tree_big_10_5",
+                        "id": "j13_jungle_tree_big_0_5",
                         "type": "jungle_tree_big",
                         "name": "热带古树",
-                        "c": 10,
+                        "c": 0,
                         "r": 5,
                         "wCells": 2,
                         "hCells": 2,
@@ -7388,40 +7388,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j13_jungle_hut_10_0",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 10,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FAN",
-                                    "level": 1,
-                                    "slotC": 10,
-                                    "slotR": 0
-                        }
-            },
-            {
-                        "id": "j13_jungle_totem_1_5",
-                        "type": "jungle_totem",
-                        "name": "雨林图腾柱",
-                        "c": 1,
-                        "r": 5,
-                        "wCells": 1,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_totem.png",
-                        "hp": 2000,
-                        "rewardGold": 150
-            },
-            {
-                        "id": "j13_jungle_chest_small_4_0",
+                        "id": "j13_jungle_chest_small_0_0",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 4,
+                        "c": 0,
                         "r": 0,
                         "wCells": 1,
                         "hCells": 1,
@@ -7430,11 +7400,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j13_jungle_mushroom_5_4",
+                        "id": "j13_jungle_mushroom_1_0",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 5,
-                        "r": 4,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -7442,11 +7412,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j13_jungle_rock_7_2",
+                        "id": "j13_jungle_rock_9_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 7,
-                        "r": 2,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -7454,10 +7424,46 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j13_jungle_stump_7_6",
+                        "id": "j13_jungle_stump_2_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 7,
+                        "c": 2,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j13_jungle_mushroom_3_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j13_jungle_rock_8_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 8,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j13_jungle_stump_4_6",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 4,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -8009,11 +8015,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "j14_jungle_chest_big_2_2",
+                        "id": "j14_jungle_chest_big_10_5",
                         "type": "jungle_chest_big",
                         "name": "远古大金箱",
-                        "c": 2,
-                        "r": 2,
+                        "c": 10,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_chest_big.png",
@@ -8022,15 +8028,15 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "GEOM_LASER",
                                     "level": 2,
-                                    "slotC": 2,
-                                    "slotR": 2
+                                    "slotC": 10,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "j14_jungle_tree_big_10_5",
+                        "id": "j14_jungle_tree_big_8_5",
                         "type": "jungle_tree_big",
                         "name": "热带古树",
-                        "c": 10,
+                        "c": 8,
                         "r": 5,
                         "wCells": 2,
                         "hCells": 2,
@@ -8039,22 +8045,16 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j14_jungle_hut_7_0",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 7,
+                        "id": "j14_jungle_totem_0_0",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 0,
                         "r": 0,
-                        "wCells": 2,
+                        "wCells": 1,
                         "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
                         "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FIRE_BOTTLE",
-                                    "level": 1,
-                                    "slotC": 7,
-                                    "slotR": 0
-                        }
+                        "rewardGold": 150
             },
             {
                         "id": "j14_jungle_totem_0_5",
@@ -8069,11 +8069,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j14_jungle_chest_small_5_6",
+                        "id": "j14_jungle_chest_small_1_0",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 5,
-                        "r": 6,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -8081,11 +8081,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j14_jungle_mushroom_11_1",
+                        "id": "j14_jungle_mushroom_2_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 11,
-                        "r": 1,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -8093,11 +8093,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j14_jungle_rock_0_0",
+                        "id": "j14_jungle_rock_1_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 0,
-                        "r": 0,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -8105,14 +8105,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j14_jungle_stump_6_3",
+                        "id": "j14_jungle_stump_3_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 6,
-                        "r": 3,
+                        "c": 3,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j14_jungle_mushroom_4_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 4,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -8695,58 +8707,10 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "j15_jungle_chest_big_2_0",
-                        "type": "jungle_chest_big",
-                        "name": "远古大金箱",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_chest_big.png",
-                        "hp": 3200,
-                        "rewardGold": 200,
-                        "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
-                                    "level": 2,
-                                    "slotC": 2,
-                                    "slotR": 0
-                        }
-            },
-            {
-                        "id": "j15_jungle_tree_big_6_5",
-                        "type": "jungle_tree_big",
-                        "name": "热带古树",
-                        "c": 6,
-                        "r": 5,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "j15_jungle_hut_2_3",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 2,
-                        "r": 3,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FIRE_BOTTLE",
-                                    "level": 1,
-                                    "slotC": 2,
-                                    "slotR": 3
-                        }
-            },
-            {
-                        "id": "j15_jungle_totem_11_0",
+                        "id": "j15_jungle_totem_0_0",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 11,
+                        "c": 0,
                         "r": 0,
                         "wCells": 1,
                         "hCells": 2,
@@ -8755,11 +8719,23 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j15_jungle_chest_small_11_6",
+                        "id": "j15_jungle_totem_0_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 0,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j15_jungle_chest_small_1_0",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 11,
-                        "r": 6,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -8767,10 +8743,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j15_jungle_mushroom_0_6",
+                        "id": "j15_jungle_mushroom_9_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 0,
+                        "c": 9,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -8779,11 +8755,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j15_jungle_rock_8_2",
+                        "id": "j15_jungle_rock_11_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 8,
-                        "r": 2,
+                        "c": 11,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -8791,11 +8767,47 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j15_jungle_stump_6_0",
+                        "id": "j15_jungle_stump_10_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 6,
-                        "r": 0,
+                        "c": 10,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j15_jungle_mushroom_2_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 2,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j15_jungle_rock_3_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j15_jungle_stump_1_6",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
@@ -9277,11 +9289,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "j16_jungle_chest_big_0_2",
+                        "id": "j16_jungle_chest_big_10_5",
                         "type": "jungle_chest_big",
                         "name": "远古大金箱",
-                        "c": 0,
-                        "r": 2,
+                        "c": 10,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_chest_big.png",
@@ -9290,15 +9302,15 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "DIV_FROST",
                                     "level": 2,
-                                    "slotC": 0,
-                                    "slotR": 2
+                                    "slotC": 10,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "j16_jungle_tree_big_10_5",
+                        "id": "j16_jungle_tree_big_0_5",
                         "type": "jungle_tree_big",
                         "name": "热带古树",
-                        "c": 10,
+                        "c": 0,
                         "r": 5,
                         "wCells": 2,
                         "hCells": 2,
@@ -9307,29 +9319,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j16_jungle_hut_7_0",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 7,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "MUL_CANNON",
-                                    "level": 1,
-                                    "slotC": 7,
-                                    "slotR": 0
-                        }
-            },
-            {
-                        "id": "j16_jungle_totem_5_4",
+                        "id": "j16_jungle_totem_9_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 5,
-                        "r": 4,
+                        "c": 9,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -9337,11 +9331,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j16_jungle_chest_small_1_6",
+                        "id": "j16_jungle_chest_small_0_0",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 1,
-                        "r": 6,
+                        "c": 0,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -9349,11 +9343,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j16_jungle_mushroom_11_1",
+                        "id": "j16_jungle_mushroom_1_0",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 11,
-                        "r": 1,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -9361,11 +9355,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j16_jungle_rock_2_0",
+                        "id": "j16_jungle_rock_2_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
                         "c": 2,
-                        "r": 0,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -9373,14 +9367,38 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j16_jungle_stump_7_6",
+                        "id": "j16_jungle_stump_3_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 7,
+                        "c": 3,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j16_jungle_mushroom_8_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 8,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j16_jungle_rock_11_0",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -9845,11 +9863,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "j17_jungle_chest_big_0_4",
+                        "id": "j17_jungle_chest_big_10_5",
                         "type": "jungle_chest_big",
                         "name": "远古大金箱",
-                        "c": 0,
-                        "r": 4,
+                        "c": 10,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_chest_big.png",
@@ -9858,16 +9876,16 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "FIRE_BOTTLE",
                                     "level": 2,
-                                    "slotC": 0,
-                                    "slotR": 4
+                                    "slotC": 10,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "j17_jungle_tree_big_10_0",
+                        "id": "j17_jungle_tree_big_0_5",
                         "type": "jungle_tree_big",
                         "name": "热带古树",
-                        "c": 10,
-                        "r": 0,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_tree_big.png",
@@ -9875,29 +9893,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j17_jungle_hut_7_5",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 7,
-                        "r": 5,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
-                                    "level": 1,
-                                    "slotC": 7,
-                                    "slotR": 5
-                        }
-            },
-            {
-                        "id": "j17_jungle_totem_4_2",
+                        "id": "j17_jungle_totem_9_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 4,
-                        "r": 2,
+                        "c": 9,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -9905,10 +9905,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j17_jungle_chest_small_1_0",
+                        "id": "j17_jungle_chest_small_0_0",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 1,
+                        "c": 0,
                         "r": 0,
                         "wCells": 1,
                         "hCells": 1,
@@ -9917,10 +9917,46 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j17_jungle_mushroom_3_6",
+                        "id": "j17_jungle_mushroom_1_0",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
+                        "c": 1,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j17_jungle_rock_2_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 2,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j17_jungle_stump_3_6",
+                        "type": "jungle_stump",
+                        "name": "远古树桩",
                         "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j17_jungle_mushroom_8_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 8,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -9929,26 +9965,14 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j17_jungle_rock_11_4",
+                        "id": "j17_jungle_rock_4_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 11,
-                        "r": 4,
+                        "c": 4,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
-                        "hp": 550,
-                        "rewardGold": 80
-            },
-            {
-                        "id": "j17_jungle_stump_6_0",
-                        "type": "jungle_stump",
-                        "name": "远古树桩",
-                        "c": 6,
-                        "r": 0,
-                        "wCells": 1,
-                        "hCells": 1,
-                        "spriteSrc": "assets/official/props/jungle_stump.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -10493,29 +10517,23 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j18_jungle_hut_3_4",
+                        "id": "j18_jungle_hut_0_5",
                         "type": "jungle_hut",
                         "name": "原始树屋",
-                        "c": 3,
-                        "r": 4,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_hut.png",
                         "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "MUL_CANNON",
-                                    "level": 1,
-                                    "slotC": 3,
-                                    "slotR": 4
-                        }
+                        "rewardGold": 160
             },
             {
-                        "id": "j18_jungle_totem_7_0",
+                        "id": "j18_jungle_totem_9_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 7,
-                        "r": 0,
+                        "c": 9,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -10523,10 +10541,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j18_jungle_chest_small_0_6",
+                        "id": "j18_jungle_chest_small_2_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 0,
+                        "c": 2,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -10535,10 +10553,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j18_jungle_mushroom_6_6",
+                        "id": "j18_jungle_mushroom_8_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 6,
+                        "c": 8,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -10547,11 +10565,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j18_jungle_rock_11_1",
+                        "id": "j18_jungle_rock_3_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 11,
-                        "r": 1,
+                        "c": 3,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -10559,14 +10577,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j18_jungle_stump_0_3",
+                        "id": "j18_jungle_stump_7_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 0,
-                        "r": 3,
+                        "c": 7,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j18_jungle_mushroom_11_0",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -11107,29 +11137,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j19_jungle_hut_2_5",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 2,
-                        "r": 5,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "BALL",
-                                    "level": 1,
-                                    "slotC": 2,
-                                    "slotR": 5
-                        }
-            },
-            {
-                        "id": "j19_jungle_totem_6_2",
+                        "id": "j19_jungle_totem_0_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 6,
-                        "r": 2,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -11137,11 +11149,23 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j19_jungle_chest_small_11_0",
+                        "id": "j19_jungle_totem_2_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 2,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j19_jungle_chest_small_9_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 11,
-                        "r": 0,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -11149,11 +11173,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j19_jungle_mushroom_4_0",
+                        "id": "j19_jungle_mushroom_1_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 4,
-                        "r": 0,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -11161,10 +11185,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j19_jungle_rock_5_6",
+                        "id": "j19_jungle_rock_8_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 5,
+                        "c": 8,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -11173,14 +11197,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j19_jungle_stump_0_3",
+                        "id": "j19_jungle_stump_7_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 0,
-                        "r": 3,
+                        "c": 7,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j19_jungle_mushroom_3_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -11665,41 +11701,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j20_jungle_hut_4_2",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 4,
-                        "r": 2,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FAN",
-                                    "level": 1,
-                                    "slotC": 4,
-                                    "slotR": 2
-                        }
-            },
-            {
-                        "id": "j20_jungle_totem_11_0",
-                        "type": "jungle_totem",
-                        "name": "雨林图腾柱",
-                        "c": 11,
-                        "r": 0,
-                        "wCells": 1,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_totem.png",
-                        "hp": 2000,
-                        "rewardGold": 150
-            },
-            {
-                        "id": "j20_jungle_chest_small_1_5",
+                        "id": "j20_jungle_chest_small_9_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 1,
-                        "r": 5,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -11707,38 +11713,14 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j20_jungle_mushroom_5_5",
+                        "id": "j20_jungle_mushroom_11_0",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 5,
-                        "r": 5,
-                        "wCells": 1,
-                        "hCells": 1,
-                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
-                        "hp": 550,
-                        "rewardGold": 80
-            },
-            {
-                        "id": "j20_jungle_rock_7_0",
-                        "type": "jungle_rock",
-                        "name": "苔藓青石",
-                        "c": 7,
+                        "c": 11,
                         "r": 0,
                         "wCells": 1,
                         "hCells": 1,
-                        "spriteSrc": "assets/official/props/jungle_rock.png",
-                        "hp": 550,
-                        "rewardGold": 80
-            },
-            {
-                        "id": "j20_jungle_stump_9_2",
-                        "type": "jungle_stump",
-                        "name": "远古树桩",
-                        "c": 9,
-                        "r": 2,
-                        "wCells": 1,
-                        "hCells": 1,
-                        "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -12173,10 +12155,10 @@ export const LEVEL_CONFIGS = {
                         }
             },
             {
-                        "id": "j21_jungle_tree_big_5_5",
+                        "id": "j21_jungle_tree_big_0_5",
                         "type": "jungle_tree_big",
                         "name": "热带古树",
-                        "c": 5,
+                        "c": 0,
                         "r": 5,
                         "wCells": 2,
                         "hCells": 2,
@@ -12185,29 +12167,23 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j21_jungle_hut_0_5",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 0,
-                        "r": 5,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FIRE_BOTTLE",
-                                    "level": 1,
-                                    "slotC": 0,
-                                    "slotR": 5
-                        }
-            },
-            {
-                        "id": "j21_jungle_totem_11_0",
+                        "id": "j21_jungle_totem_11_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
                         "c": 11,
-                        "r": 0,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j21_jungle_totem_2_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 2,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -12227,11 +12203,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j21_jungle_mushroom_3_2",
+                        "id": "j21_jungle_mushroom_9_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 3,
-                        "r": 2,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -12239,11 +12215,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j21_jungle_rock_6_0",
+                        "id": "j21_jungle_rock_8_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 6,
-                        "r": 0,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -12251,14 +12227,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j21_jungle_stump_8_3",
+                        "id": "j21_jungle_stump_3_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 8,
-                        "r": 3,
+                        "c": 3,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j21_jungle_mushroom_11_0",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -12720,10 +12708,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j22_jungle_hut_2_5",
+                        "id": "j22_jungle_hut_0_5",
                         "type": "jungle_hut",
                         "name": "原始树屋",
-                        "c": 2,
+                        "c": 0,
                         "r": 5,
                         "wCells": 2,
                         "hCells": 2,
@@ -12732,11 +12720,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j22_jungle_totem_6_1",
+                        "id": "j22_jungle_totem_2_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 6,
-                        "r": 1,
+                        "c": 2,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -12744,11 +12732,23 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j22_jungle_chest_small_11_0",
+                        "id": "j22_jungle_totem_9_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 9,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j22_jungle_chest_small_8_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 11,
-                        "r": 0,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_chest_small.png",
@@ -12756,10 +12756,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j22_jungle_mushroom_6_6",
+                        "id": "j22_jungle_mushroom_3_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 6,
+                        "c": 3,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -12768,11 +12768,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j22_jungle_rock_3_2",
+                        "id": "j22_jungle_rock_7_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 3,
-                        "r": 2,
+                        "c": 7,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -12780,11 +12780,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j22_jungle_stump_0_3",
+                        "id": "j22_jungle_stump_11_0",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 0,
-                        "r": 3,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
@@ -13214,29 +13214,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "j23_jungle_hut_0_5",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 0,
-                        "r": 5,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "GEOM_LASER",
-                                    "level": 1,
-                                    "slotC": 0,
-                                    "slotR": 5
-                        }
-            },
-            {
-                        "id": "j23_jungle_totem_11_0",
+                        "id": "j23_jungle_totem_0_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 11,
-                        "r": 0,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -13244,10 +13226,22 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j23_jungle_chest_small_5_6",
+                        "id": "j23_jungle_totem_1_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 1,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j23_jungle_chest_small_9_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 5,
+                        "c": 9,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -13256,11 +13250,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j23_jungle_mushroom_3_2",
+                        "id": "j23_jungle_mushroom_2_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 3,
-                        "r": 2,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_mushroom.png",
@@ -13268,11 +13262,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j23_jungle_rock_6_0",
+                        "id": "j23_jungle_rock_8_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 6,
-                        "r": 0,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_rock.png",
@@ -13280,14 +13274,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j23_jungle_stump_9_2",
+                        "id": "j23_jungle_stump_3_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 9,
-                        "r": 2,
+                        "c": 3,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j23_jungle_mushroom_7_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 7,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -13876,41 +13882,11 @@ export const LEVEL_CONFIGS = {
                         }
             },
             {
-                        "id": "j24_jungle_tree_big_8_3",
-                        "type": "jungle_tree_big",
-                        "name": "热带古树",
-                        "c": 8,
-                        "r": 3,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_tree_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "j24_jungle_hut_4_2",
-                        "type": "jungle_hut",
-                        "name": "原始树屋",
-                        "c": 4,
-                        "r": 2,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/jungle_hut.png",
-                        "hp": 2000,
-                        "rewardGold": 160,
-                        "hiddenTower": {
-                                    "typeKey": "FAN",
-                                    "level": 1,
-                                    "slotC": 4,
-                                    "slotR": 2
-                        }
-            },
-            {
-                        "id": "j24_jungle_totem_11_0",
+                        "id": "j24_jungle_totem_0_5",
                         "type": "jungle_totem",
                         "name": "雨林图腾柱",
-                        "c": 11,
-                        "r": 0,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/jungle_totem.png",
@@ -13918,10 +13894,22 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "j24_jungle_chest_small_1_6",
+                        "id": "j24_jungle_totem_11_5",
+                        "type": "jungle_totem",
+                        "name": "雨林图腾柱",
+                        "c": 11,
+                        "r": 5,
+                        "wCells": 1,
+                        "hCells": 2,
+                        "spriteSrc": "assets/official/props/jungle_totem.png",
+                        "hp": 2000,
+                        "rewardGold": 150
+            },
+            {
+                        "id": "j24_jungle_chest_small_10_6",
                         "type": "jungle_chest_small",
                         "name": "丛林小木箱",
-                        "c": 1,
+                        "c": 10,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -13930,10 +13918,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "j24_jungle_mushroom_11_6",
+                        "id": "j24_jungle_mushroom_2_6",
                         "type": "jungle_mushroom",
                         "name": "巨型毒蘑菇",
-                        "c": 11,
+                        "c": 2,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -13942,10 +13930,10 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j24_jungle_rock_6_6",
+                        "id": "j24_jungle_rock_3_6",
                         "type": "jungle_rock",
                         "name": "苔藓青石",
-                        "c": 6,
+                        "c": 3,
                         "r": 6,
                         "wCells": 1,
                         "hCells": 1,
@@ -13954,14 +13942,38 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "j24_jungle_stump_6_0",
+                        "id": "j24_jungle_stump_9_6",
                         "type": "jungle_stump",
                         "name": "远古树桩",
-                        "c": 6,
-                        "r": 0,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/jungle_stump.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j24_jungle_mushroom_1_6",
+                        "type": "jungle_mushroom",
+                        "name": "巨型毒蘑菇",
+                        "c": 1,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_mushroom.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "j24_jungle_rock_8_6",
+                        "type": "jungle_rock",
+                        "name": "苔藓青石",
+                        "c": 8,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/jungle_rock.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -14476,11 +14488,11 @@ export const LEVEL_CONFIGS = {
                         }
             },
             {
-                        "id": "d25_desert_cactus_big_2_0",
+                        "id": "d25_desert_cactus_big_0_5",
                         "type": "desert_cactus_big",
                         "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_cactus_big.png",
@@ -14488,11 +14500,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "d25_desert_totem_4_1",
+                        "id": "d25_desert_totem_11_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 4,
-                        "r": 1,
+                        "c": 11,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -14500,11 +14512,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d25_desert_skull_fossils_5_1",
+                        "id": "d25_desert_skull_fossils_11_0",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 5,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
@@ -14513,16 +14525,16 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "DIV_FROST",
                                     "level": 1,
-                                    "slotC": 5,
-                                    "slotR": 1
+                                    "slotC": 11,
+                                    "slotR": 0
                         }
             },
             {
-                        "id": "d25_desert_chest_small_6_1",
+                        "id": "d25_desert_chest_small_2_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 6,
-                        "r": 1,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -14530,11 +14542,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d25_desert_cactus_small_7_1",
+                        "id": "d25_desert_cactus_small_9_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 7,
-                        "r": 1,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -14542,11 +14554,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d25_desert_bush_8_1",
+                        "id": "d25_desert_bush_10_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 8,
-                        "r": 1,
+                        "c": 10,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -14554,14 +14566,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d25_desert_rock_9_1",
+                        "id": "d25_desert_rock_8_6",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 9,
-                        "r": 1,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d25_desert_cactus_small_3_6",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 3,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -15111,11 +15135,11 @@ export const LEVEL_CONFIGS = {
                         }
             },
             {
-                        "id": "d26_desert_cactus_big_2_0",
+                        "id": "d26_desert_cactus_big_0_5",
                         "type": "desert_cactus_big",
                         "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_cactus_big.png",
@@ -15123,11 +15147,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "d26_desert_totem_11_1",
+                        "id": "d26_desert_totem_11_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
                         "c": 11,
-                        "r": 1,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -15135,29 +15159,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d26_desert_skull_fossils_0_2",
+                        "id": "d26_desert_skull_fossils_11_0",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 0,
-                        "r": 2,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "FAN",
                                     "level": 1,
-                                    "slotC": 0,
-                                    "slotR": 2
+                                    "slotC": 11,
+                                    "slotR": 0
                         }
             },
             {
-                        "id": "d26_desert_chest_small_4_1",
+                        "id": "d26_desert_chest_small_9_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 4,
-                        "r": 1,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -15165,11 +15189,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d26_desert_cactus_small_5_1",
+                        "id": "d26_desert_cactus_small_10_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 5,
-                        "r": 1,
+                        "c": 10,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -15177,11 +15201,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d26_desert_bush_6_1",
+                        "id": "d26_desert_bush_8_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 6,
-                        "r": 1,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -15189,14 +15213,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d26_desert_rock_1_2",
+                        "id": "d26_desert_rock_10_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 1,
-                        "r": 2,
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d26_desert_cactus_small_2_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -15489,30 +15525,18 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "ARROW",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
                         }
             },
             {
-                        "id": "d27_desert_cactus_big_2_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d27_desert_totem_6_1",
+                        "id": "d27_desert_totem_0_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 6,
-                        "r": 1,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -15520,11 +15544,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d27_desert_skull_fossils_7_1",
+                        "id": "d27_desert_skull_fossils_11_0",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 7,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
@@ -15533,16 +15557,16 @@ export const LEVEL_CONFIGS = {
                         "hiddenTower": {
                                     "typeKey": "DIV_FROST",
                                     "level": 1,
-                                    "slotC": 7,
-                                    "slotR": 1
+                                    "slotC": 11,
+                                    "slotR": 0
                         }
             },
             {
-                        "id": "d27_desert_chest_small_4_1",
+                        "id": "d27_desert_chest_small_1_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 4,
-                        "r": 1,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -15550,11 +15574,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d27_desert_cactus_small_5_1",
+                        "id": "d27_desert_cactus_small_10_0",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 5,
-                        "r": 1,
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -15562,11 +15586,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d27_desert_bush_8_1",
+                        "id": "d27_desert_bush_2_0",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 8,
-                        "r": 1,
+                        "c": 2,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -15574,11 +15598,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d27_desert_rock_9_1",
+                        "id": "d27_desert_rock_9_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
                         "c": 9,
-                        "r": 1,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d27_desert_cactus_small_3_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 3,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d27_desert_rock_8_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 8,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
@@ -16174,30 +16222,18 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "DIV_FROST",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
                         }
             },
             {
-                        "id": "d28_desert_cactus_big_2_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d28_desert_totem_6_1",
+                        "id": "d28_desert_totem_0_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 6,
-                        "r": 1,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -16205,29 +16241,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d28_desert_skull_fossils_7_1",
+                        "id": "d28_desert_skull_fossils_11_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 7,
-                        "r": 1,
+                        "c": 11,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "MUL_CANNON",
                                     "level": 1,
-                                    "slotC": 7,
-                                    "slotR": 1
+                                    "slotC": 11,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d28_desert_chest_small_4_1",
+                        "id": "d28_desert_chest_small_1_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 4,
-                        "r": 1,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -16235,11 +16271,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d28_desert_cactus_small_11_1",
+                        "id": "d28_desert_cactus_small_9_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 11,
-                        "r": 1,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -16247,11 +16283,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d28_desert_bush_0_2",
+                        "id": "d28_desert_bush_11_0",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 0,
-                        "r": 2,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -16259,11 +16295,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d28_desert_rock_8_2",
+                        "id": "d28_desert_rock_10_6",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
+                        "c": 10,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d28_desert_cactus_small_8_6",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
                         "c": 8,
-                        "r": 2,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d28_desert_rock_10_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
@@ -16768,29 +16828,29 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "d29_desert_chest_big_4_0",
+                        "id": "d29_desert_chest_big_10_5",
                         "type": "desert_chest_big",
                         "name": "法老大金棺",
-                        "c": 4,
-                        "r": 0,
+                        "c": 10,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_chest_big.png",
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "BLUE_STAR",
                                     "level": 2,
-                                    "slotC": 4,
-                                    "slotR": 0
+                                    "slotC": 10,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d29_desert_cactus_big_6_0",
+                        "id": "d29_desert_cactus_big_2_5",
                         "type": "desert_cactus_big",
                         "name": "巨型沙丘仙人掌",
-                        "c": 6,
-                        "r": 0,
+                        "c": 2,
+                        "r": 5,
                         "wCells": 2,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_cactus_big.png",
@@ -16798,11 +16858,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "d29_desert_totem_0_1",
+                        "id": "d29_desert_totem_0_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
                         "c": 0,
-                        "r": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -16810,29 +16870,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d29_desert_skull_fossils_2_2",
+                        "id": "d29_desert_skull_fossils_0_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 2,
-                        "r": 2,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "ARROW",
                                     "level": 1,
-                                    "slotC": 2,
-                                    "slotR": 2
+                                    "slotC": 0,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d29_desert_chest_small_8_1",
+                        "id": "d29_desert_chest_small_1_0",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 8,
-                        "r": 1,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -16840,11 +16900,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d29_desert_cactus_small_5_2",
+                        "id": "d29_desert_cactus_small_9_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 5,
-                        "r": 2,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -16852,11 +16912,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d29_desert_bush_6_2",
+                        "id": "d29_desert_bush_11_0",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 6,
-                        "r": 2,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -16864,14 +16924,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d29_desert_rock_7_2",
+                        "id": "d29_desert_rock_1_6",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 7,
-                        "r": 2,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d29_desert_cactus_small_8_6",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 8,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -17388,41 +17460,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "d30_desert_chest_big_5_0",
-                        "type": "desert_chest_big",
-                        "name": "法老大金棺",
-                        "c": 5,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_chest_big.png",
-                        "hp": 3200,
-                        "rewardGold": 200,
-                        "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
-                                    "level": 2,
-                                    "slotC": 5,
-                                    "slotR": 0
-                        }
-            },
-            {
-                        "id": "d30_desert_cactus_big_10_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 10,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d30_desert_totem_0_1",
+                        "id": "d30_desert_totem_0_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
                         "c": 0,
-                        "r": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -17430,29 +17472,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d30_desert_skull_fossils_2_2",
+                        "id": "d30_desert_skull_fossils_0_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 2,
-                        "r": 2,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "ARROW",
                                     "level": 1,
-                                    "slotC": 2,
-                                    "slotR": 2
+                                    "slotC": 0,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d30_desert_chest_small_3_2",
+                        "id": "d30_desert_chest_small_1_0",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 3,
-                        "r": 2,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -17460,11 +17502,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d30_desert_cactus_small_5_2",
+                        "id": "d30_desert_cactus_small_11_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 5,
-                        "r": 2,
+                        "c": 11,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -17472,11 +17514,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d30_desert_bush_6_2",
+                        "id": "d30_desert_bush_9_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 6,
-                        "r": 2,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -17484,14 +17526,50 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d30_desert_rock_8_2",
+                        "id": "d30_desert_rock_2_6",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 8,
-                        "r": 2,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d30_desert_cactus_small_1_6",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 1,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d30_desert_rock_11_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d30_desert_bush_10_6",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 10,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -18090,41 +18168,11 @@ export const LEVEL_CONFIGS = {
         ],
         "props": [
             {
-                        "id": "d31_desert_chest_big_4_0",
-                        "type": "desert_chest_big",
-                        "name": "法老大金棺",
-                        "c": 4,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_chest_big.png",
-                        "hp": 3200,
-                        "rewardGold": 200,
-                        "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
-                                    "level": 2,
-                                    "slotC": 4,
-                                    "slotR": 0
-                        }
-            },
-            {
-                        "id": "d31_desert_cactus_big_10_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 10,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d31_desert_totem_0_1",
+                        "id": "d31_desert_totem_0_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
                         "c": 0,
-                        "r": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -18132,29 +18180,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d31_desert_skull_fossils_2_2",
+                        "id": "d31_desert_skull_fossils_11_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 2,
-                        "r": 2,
+                        "c": 11,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "FAN",
                                     "level": 1,
-                                    "slotC": 2,
-                                    "slotR": 2
+                                    "slotC": 11,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d31_desert_chest_small_7_2",
+                        "id": "d31_desert_chest_small_1_0",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 7,
-                        "r": 2,
+                        "c": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -18162,11 +18210,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d31_desert_cactus_small_8_2",
+                        "id": "d31_desert_cactus_small_0_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 8,
-                        "r": 2,
+                        "c": 0,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -18174,11 +18222,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d31_desert_bush_11_2",
+                        "id": "d31_desert_bush_1_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 11,
-                        "r": 2,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -18186,14 +18234,50 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d31_desert_rock_0_3",
+                        "id": "d31_desert_rock_2_6",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 0,
-                        "r": 3,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d31_desert_cactus_small_9_6",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 9,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d31_desert_rock_11_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 11,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d31_desert_bush_10_6",
+                        "type": "desert_bush",
+                        "name": "沙漠沙棘灌木",
+                        "c": 10,
+                        "r": 6,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_bush.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -18642,30 +18726,18 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "ARROW",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
                         }
             },
             {
-                        "id": "d32_desert_cactus_big_2_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d32_desert_totem_4_1",
+                        "id": "d32_desert_totem_11_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 4,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -18673,29 +18745,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d32_desert_skull_fossils_5_1",
+                        "id": "d32_desert_skull_fossils_0_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 5,
-                        "r": 1,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "BLUE_STAR",
                                     "level": 1,
-                                    "slotC": 5,
-                                    "slotR": 1
+                                    "slotC": 0,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d32_desert_chest_small_6_1",
+                        "id": "d32_desert_chest_small_1_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 6,
-                        "r": 1,
+                        "c": 1,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -18703,11 +18775,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d32_desert_cactus_small_7_1",
+                        "id": "d32_desert_cactus_small_11_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 7,
-                        "r": 1,
+                        "c": 11,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -18715,11 +18787,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d32_desert_bush_8_1",
+                        "id": "d32_desert_bush_9_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 8,
-                        "r": 1,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -18727,11 +18799,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d32_desert_rock_9_1",
+                        "id": "d32_desert_rock_10_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d32_desert_cactus_small_2_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d32_desert_rock_9_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
                         "c": 9,
-                        "r": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
@@ -19157,7 +19253,7 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "BLUE_STAR",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
@@ -19176,11 +19272,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "d33_desert_totem_11_1",
+                        "id": "d33_desert_totem_11_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
                         "c": 11,
-                        "r": 1,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -19188,29 +19284,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d33_desert_skull_fossils_0_2",
+                        "id": "d33_desert_skull_fossils_11_0",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 0,
-                        "r": 2,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "BALL",
                                     "level": 1,
-                                    "slotC": 0,
-                                    "slotR": 2
+                                    "slotC": 11,
+                                    "slotR": 0
                         }
             },
             {
-                        "id": "d33_desert_chest_small_1_2",
+                        "id": "d33_desert_chest_small_9_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 1,
-                        "r": 2,
+                        "c": 9,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -19218,11 +19314,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d33_desert_cactus_small_10_2",
+                        "id": "d33_desert_cactus_small_10_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
                         "c": 10,
-                        "r": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -19230,11 +19326,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d33_desert_bush_10_3",
+                        "id": "d33_desert_bush_8_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 10,
-                        "r": 3,
+                        "c": 8,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -19242,14 +19338,26 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d33_desert_rock_11_3",
+                        "id": "d33_desert_rock_10_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 11,
-                        "r": 3,
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d33_desert_cactus_small_2_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
                         "hp": 550,
                         "rewardGold": 80
             }
@@ -19658,30 +19766,18 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "BLUE_STAR",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
                         }
             },
             {
-                        "id": "d34_desert_cactus_big_2_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d34_desert_totem_10_1",
+                        "id": "d34_desert_totem_11_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 10,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -19689,29 +19785,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d34_desert_skull_fossils_11_1",
+                        "id": "d34_desert_skull_fossils_0_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 11,
-                        "r": 1,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "ROCKET",
                                     "level": 1,
-                                    "slotC": 11,
-                                    "slotR": 1
+                                    "slotC": 0,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d34_desert_chest_small_4_1",
+                        "id": "d34_desert_chest_small_11_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 4,
-                        "r": 1,
+                        "c": 11,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -19719,11 +19815,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d34_desert_cactus_small_5_1",
+                        "id": "d34_desert_cactus_small_10_0",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 5,
-                        "r": 1,
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -19731,11 +19827,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d34_desert_bush_6_1",
+                        "id": "d34_desert_bush_2_0",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 6,
-                        "r": 1,
+                        "c": 2,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -19743,11 +19839,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d34_desert_rock_7_1",
+                        "id": "d34_desert_rock_9_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 7,
-                        "r": 1,
+                        "c": 9,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d34_desert_cactus_small_3_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 3,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d34_desert_rock_8_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 8,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
@@ -20206,30 +20326,18 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "ARROW",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
                         }
             },
             {
-                        "id": "d35_desert_cactus_big_2_0",
-                        "type": "desert_cactus_big",
-                        "name": "巨型沙丘仙人掌",
-                        "c": 2,
-                        "r": 0,
-                        "wCells": 2,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_cactus_big.png",
-                        "hp": 2000,
-                        "rewardGold": 160
-            },
-            {
-                        "id": "d35_desert_totem_4_1",
+                        "id": "d35_desert_totem_11_0",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 4,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -20237,29 +20345,29 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d35_desert_skull_fossils_5_1",
+                        "id": "d35_desert_skull_fossils_0_5",
                         "type": "desert_skull_fossils",
                         "name": "巨兽骨骼化石",
-                        "c": 5,
-                        "r": 1,
+                        "c": 0,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_skull_fossils.png",
                         "hp": 2000,
                         "rewardGold": 150,
                         "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
+                                    "typeKey": "BLUE_STAR",
                                     "level": 1,
-                                    "slotC": 5,
-                                    "slotR": 1
+                                    "slotC": 0,
+                                    "slotR": 5
                         }
             },
             {
-                        "id": "d35_desert_chest_small_6_1",
+                        "id": "d35_desert_chest_small_2_6",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 6,
-                        "r": 1,
+                        "c": 2,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -20267,11 +20375,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d35_desert_cactus_small_7_1",
+                        "id": "d35_desert_cactus_small_10_6",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 7,
-                        "r": 1,
+                        "c": 10,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -20279,11 +20387,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d35_desert_bush_8_1",
+                        "id": "d35_desert_bush_11_6",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 8,
-                        "r": 1,
+                        "c": 11,
+                        "r": 6,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -20291,11 +20399,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d35_desert_rock_9_1",
+                        "id": "d35_desert_rock_10_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 10,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d35_desert_cactus_small_2_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 2,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d35_desert_rock_9_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
                         "c": 9,
-                        "r": 1,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
@@ -20722,7 +20854,7 @@ export const LEVEL_CONFIGS = {
                         "hp": 3200,
                         "rewardGold": 200,
                         "hiddenTower": {
-                                    "typeKey": "ADD_RAPID",
+                                    "typeKey": "ARROW",
                                     "level": 2,
                                     "slotC": 0,
                                     "slotR": 0
@@ -20741,11 +20873,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 160
             },
             {
-                        "id": "d36_desert_totem_0_2",
+                        "id": "d36_desert_totem_2_5",
                         "type": "desert_totem",
                         "name": "古遗迹图腾柱",
-                        "c": 0,
-                        "r": 2,
+                        "c": 2,
+                        "r": 5,
                         "wCells": 1,
                         "hCells": 2,
                         "spriteSrc": "assets/official/props/desert_totem.png",
@@ -20753,29 +20885,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 150
             },
             {
-                        "id": "d36_desert_skull_fossils_4_2",
-                        "type": "desert_skull_fossils",
-                        "name": "巨兽骨骼化石",
-                        "c": 4,
-                        "r": 2,
-                        "wCells": 1,
-                        "hCells": 2,
-                        "spriteSrc": "assets/official/props/desert_skull_fossils.png",
-                        "hp": 2000,
-                        "rewardGold": 150,
-                        "hiddenTower": {
-                                    "typeKey": "DIV_FROST",
-                                    "level": 1,
-                                    "slotC": 4,
-                                    "slotR": 2
-                        }
-            },
-            {
-                        "id": "d36_desert_chest_small_2_1",
+                        "id": "d36_desert_chest_small_11_0",
                         "type": "desert_chest_small",
                         "name": "金光秘宝壶",
-                        "c": 2,
-                        "r": 1,
+                        "c": 11,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_chest_small.png",
@@ -20783,11 +20897,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 100
             },
             {
-                        "id": "d36_desert_cactus_small_2_3",
+                        "id": "d36_desert_cactus_small_10_0",
                         "type": "desert_cactus_small",
                         "name": "沙地刺仙人球",
-                        "c": 2,
-                        "r": 3,
+                        "c": 10,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_cactus_small.png",
@@ -20795,11 +20909,11 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d36_desert_bush_3_3",
+                        "id": "d36_desert_bush_2_0",
                         "type": "desert_bush",
                         "name": "沙漠沙棘灌木",
-                        "c": 3,
-                        "r": 3,
+                        "c": 2,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_bush.png",
@@ -20807,11 +20921,35 @@ export const LEVEL_CONFIGS = {
                         "rewardGold": 80
             },
             {
-                        "id": "d36_desert_rock_0_4",
+                        "id": "d36_desert_rock_9_0",
                         "type": "desert_rock",
                         "name": "风蚀风棱石",
-                        "c": 0,
-                        "r": 4,
+                        "c": 9,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_rock.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d36_desert_cactus_small_3_0",
+                        "type": "desert_cactus_small",
+                        "name": "沙地刺仙人球",
+                        "c": 3,
+                        "r": 0,
+                        "wCells": 1,
+                        "hCells": 1,
+                        "spriteSrc": "assets/official/props/desert_cactus_small.png",
+                        "hp": 550,
+                        "rewardGold": 80
+            },
+            {
+                        "id": "d36_desert_rock_8_0",
+                        "type": "desert_rock",
+                        "name": "风蚀风棱石",
+                        "c": 8,
+                        "r": 0,
                         "wCells": 1,
                         "hCells": 1,
                         "spriteSrc": "assets/official/props/desert_rock.png",
